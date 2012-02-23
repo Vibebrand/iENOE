@@ -193,7 +193,6 @@
 		D7D65CC214F5676D00B3BEC6 /* ZAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CC114F5676D00B3BEC6 /* ZAttributedString.m */; };
 		D7D65CC614F5676D00B3BEC6 /* ZFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CC514F5676D00B3BEC6 /* ZFont.m */; };
 		D7D65CCC14F5676D00B3BEC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CCB14F5676D00B3BEC6 /* main.m */; };
-		D7D65CD014F5676D00B3BEC6 /* iEnoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CCF14F5676D00B3BEC6 /* iEnoeAppDelegate.m */; };
 		D7D65CD314F5676D00B3BEC6 /* iEnoeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CD214F5676D00B3BEC6 /* iEnoeLayer.m */; };
 		D7D65CD614F5676D00B3BEC6 /* iEnoeWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CD514F5676D00B3BEC6 /* iEnoeWorld.m */; };
 		D7D65CD814F5676D00B3BEC6 /* hello-world.pod in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CD714F5676D00B3BEC6 /* hello-world.pod */; };
@@ -254,6 +253,7 @@
 		F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */; };
 		F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */; };
 		F14D0F1814F6D6D5006C7FC2 /* ControladorGraficaSencha.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14D0F1714F6D6D5006C7FC2 /* ControladorGraficaSencha.xib */; };
+		F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -645,7 +645,6 @@
 		D7D65CCA14F5676D00B3BEC6 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		D7D65CCB14F5676D00B3BEC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7D65CCE14F5676D00B3BEC6 /* iEnoeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iEnoeAppDelegate.h; path = Classes/iEnoeAppDelegate.h; sourceTree = "<group>"; };
-		D7D65CCF14F5676D00B3BEC6 /* iEnoeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iEnoeAppDelegate.m; path = Classes/iEnoeAppDelegate.m; sourceTree = "<group>"; };
 		D7D65CD114F5676D00B3BEC6 /* iEnoeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iEnoeLayer.h; path = Classes/iEnoeLayer.h; sourceTree = "<group>"; };
 		D7D65CD214F5676D00B3BEC6 /* iEnoeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iEnoeLayer.m; path = Classes/iEnoeLayer.m; sourceTree = "<group>"; };
 		D7D65CD414F5676D00B3BEC6 /* iEnoeWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iEnoeWorld.h; path = Classes/iEnoeWorld.h; sourceTree = "<group>"; };
@@ -715,13 +714,13 @@
 		F14D0ED014F6B6A2006C7FC2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		F14D0ED214F6B6AC006C7FC2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		F14D0ED414F6B6BC006C7FC2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		F14D0ED714F6B845006C7FC2 /* RepresentableSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepresentableSencha.h; sourceTree = "<group>"; };
-		F14D0ED814F6B845006C7FC2 /* RepresentableSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RepresentableSencha.mm; sourceTree = "<group>"; };
-		F14D0EDB14F6B8A2006C7FC2 /* IRepresentableSenchaDelegado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRepresentableSenchaDelegado.h; sourceTree = "<group>"; };
-		F14D0EDE14F6B9B5006C7FC2 /* INativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INativeBridge.h; sourceTree = "<group>"; };
-		F14D0EDF14F6B9B5006C7FC2 /* NativeBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeBridgeDelegate.h; sourceTree = "<group>"; };
-		F14D0EE014F6B9B5006C7FC2 /* NativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeBridge.h; sourceTree = "<group>"; };
-		F14D0EE114F6B9B5006C7FC2 /* NativeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeBridge.m; sourceTree = "<group>"; };
+		F14D0ED714F6B845006C7FC2 /* RepresentableSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepresentableSencha.h; path = Classes/RepresentableSencha.h; sourceTree = "<group>"; };
+		F14D0ED814F6B845006C7FC2 /* RepresentableSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RepresentableSencha.mm; path = Classes/RepresentableSencha.mm; sourceTree = "<group>"; };
+		F14D0EDB14F6B8A2006C7FC2 /* IRepresentableSenchaDelegado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRepresentableSenchaDelegado.h; path = Classes/IRepresentableSenchaDelegado.h; sourceTree = "<group>"; };
+		F14D0EDE14F6B9B5006C7FC2 /* INativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INativeBridge.h; path = Classes/INativeBridge.h; sourceTree = "<group>"; };
+		F14D0EDF14F6B9B5006C7FC2 /* NativeBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeBridgeDelegate.h; path = Classes/NativeBridgeDelegate.h; sourceTree = "<group>"; };
+		F14D0EE014F6B9B5006C7FC2 /* NativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeBridge.h; path = Classes/NativeBridge.h; sourceTree = "<group>"; };
+		F14D0EE114F6B9B5006C7FC2 /* NativeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeBridge.m; path = Classes/NativeBridge.m; sourceTree = "<group>"; };
 		F14D0EE414F6BA18006C7FC2 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "iEnoe/libs/SBJson/NSObject+SBJson.h"; sourceTree = "<group>"; };
 		F14D0EE514F6BA18006C7FC2 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "iEnoe/libs/SBJson/NSObject+SBJson.m"; sourceTree = "<group>"; };
 		F14D0EE614F6BA18006C7FC2 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = iEnoe/libs/SBJson/SBJson.h; sourceTree = "<group>"; };
@@ -747,17 +746,18 @@
 		F14D0EFA14F6BA18006C7FC2 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = iEnoe/libs/SBJson/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		F14D0EFB14F6BA18006C7FC2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = iEnoe/libs/SBJson/SBJsonWriter.h; sourceTree = "<group>"; };
 		F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = iEnoe/libs/SBJson/SBJsonWriter.m; sourceTree = "<group>"; };
-		F14D0F0914F6BAAA006C7FC2 /* ControladorGraficaSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControladorGraficaSencha.h; sourceTree = "<group>"; };
-		F14D0F0A14F6BAAA006C7FC2 /* ControladorGraficaSencha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControladorGraficaSencha.m; sourceTree = "<group>"; };
-		F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ControladorSencha.mm; sourceTree = "<group>"; };
-		F14D0F0D14F6BAF9006C7FC2 /* ControladorSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControladorSencha.h; sourceTree = "<group>"; };
-		F14D0F0F14F6D516006C7FC2 /* ControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlMaestro.h; sourceTree = "<group>"; };
-		F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ControlMaestro.mm; sourceTree = "<group>"; };
-		F14D0F1214F6D540006C7FC2 /* iGestorObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGestorObjectiveC.h; sourceTree = "<group>"; };
-		F14D0F1314F6D54B006C7FC2 /* iControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iControlMaestro.h; sourceTree = "<group>"; };
-		F14D0F1414F6D55D006C7FC2 /* GestorCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestorCpp.h; sourceTree = "<group>"; };
-		F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GestorCpp.mm; sourceTree = "<group>"; };
-		F14D0F1714F6D6D5006C7FC2 /* ControladorGraficaSencha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControladorGraficaSencha.xib; sourceTree = "<group>"; };
+		F14D0F0914F6BAAA006C7FC2 /* ControladorGraficaSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorGraficaSencha.h; path = Classes/ControladorGraficaSencha.h; sourceTree = "<group>"; };
+		F14D0F0A14F6BAAA006C7FC2 /* ControladorGraficaSencha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorGraficaSencha.m; path = Classes/ControladorGraficaSencha.m; sourceTree = "<group>"; };
+		F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ControladorSencha.mm; path = Classes/ControladorSencha.mm; sourceTree = "<group>"; };
+		F14D0F0D14F6BAF9006C7FC2 /* ControladorSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorSencha.h; path = Classes/ControladorSencha.h; sourceTree = "<group>"; };
+		F14D0F0F14F6D516006C7FC2 /* ControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlMaestro.h; path = Classes/ControlMaestro.h; sourceTree = "<group>"; };
+		F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ControlMaestro.mm; path = Classes/ControlMaestro.mm; sourceTree = "<group>"; };
+		F14D0F1214F6D540006C7FC2 /* iGestorObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iGestorObjectiveC.h; path = Classes/iGestorObjectiveC.h; sourceTree = "<group>"; };
+		F14D0F1314F6D54B006C7FC2 /* iControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iControlMaestro.h; path = Classes/iControlMaestro.h; sourceTree = "<group>"; };
+		F14D0F1414F6D55D006C7FC2 /* GestorCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestorCpp.h; path = Classes/GestorCpp.h; sourceTree = "<group>"; };
+		F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GestorCpp.mm; path = Classes/GestorCpp.mm; sourceTree = "<group>"; };
+		F14D0F1714F6D6D5006C7FC2 /* ControladorGraficaSencha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorGraficaSencha.xib; path = Classes/ControladorGraficaSencha.xib; sourceTree = "<group>"; };
+		F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iEnoeAppDelegate.mm; path = Classes/iEnoeAppDelegate.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1400,7 +1400,7 @@
 				D7D65CDF14F5696C00B3BEC6 /* ControladorVista */,
 				D7D65CDE14F5695D00B3BEC6 /* Vista */,
 				D7D65CCE14F5676D00B3BEC6 /* iEnoeAppDelegate.h */,
-				D7D65CCF14F5676D00B3BEC6 /* iEnoeAppDelegate.m */,
+				F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2021,7 +2021,6 @@
 				D7D65CC214F5676D00B3BEC6 /* ZAttributedString.m in Sources */,
 				D7D65CC614F5676D00B3BEC6 /* ZFont.m in Sources */,
 				D7D65CCC14F5676D00B3BEC6 /* main.m in Sources */,
-				D7D65CD014F5676D00B3BEC6 /* iEnoeAppDelegate.m in Sources */,
 				D7D65CD314F5676D00B3BEC6 /* iEnoeLayer.m in Sources */,
 				D7D65CD614F5676D00B3BEC6 /* iEnoeWorld.m in Sources */,
 				D7D65CE314F56AAF00B3BEC6 /* VentanaPrincipal.m in Sources */,
@@ -2059,6 +2058,7 @@
 				F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.mm in Sources */,
 				F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */,
 				F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */,
+				F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

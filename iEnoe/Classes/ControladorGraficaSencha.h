@@ -1,9 +1,9 @@
 //
 //  ControladorGraficaSencha.h
-//  iGlobo
+//  iEnoe
 //
-//  Created by Jesus Cagide on 14/12/11.
-//  Copyright (c) 2011 INEGI. All rights reserved.
+//  Created by Luis Rangel on 23/02/12.
+//  Copyright (c) 2012 INEGI. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,11 +1,10 @@
 //
 //  ControladorGraficaSencha.m
-//  iGlobo
+//  iEnoe
 //
-//  Created by Jesus Cagide on 14/12/11.
-//  Copyright (c) 2011 INEGI. All rights reserved.
+//  Created by Luis Rangel on 23/02/12.
+//  Copyright (c) 2012 INEGI. All rights reserved.
 //
-
 #import "ControladorGraficaSencha.h"
 #import "NativeBridge.h"
 
@@ -17,12 +16,14 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
+    nibNameOrNil = @"ControladorGraficaSencha";
+    nibBundleOrNil = [NSBundle mainBundle];
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         [self setControladorSencha:[[ControladorSencha new] autorelease]];
         [[self controladorSencha ] setNativeBridge:[[NativeBridge new] autorelease]];
         [[self controladorSencha] setNativeBridgeDelegate:self];
-        [[self controladorSencha] setVistaPrincipal:[self view]];
+        [[self controladorSencha] setVistaPrincipal: [self view]];
     }
     return self;
 }
@@ -65,7 +66,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
 }
 
 -(IBAction) accionarLeyendas:(id)sender {
@@ -76,7 +77,7 @@
 -(UIView *) obtenerRepresentacionBajoMarco:(CGRect) tamanioVentana
 {
     return [self view];
-
+    
 }
 -(UIView *) obtenerRepresentacion
 {
@@ -87,7 +88,7 @@
 {
     if([functionName isEqualToString: @"graficaActiva"])
         [[self etiquetaNombregrafica] setText:[args objectAtIndex:0]];
-        
+    
 }
 
 @end
