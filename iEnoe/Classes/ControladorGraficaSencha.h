@@ -1,9 +1,9 @@
 //
 //  ControladorGraficaSencha.h
-//  iEnoe
+//  iGlobo
 //
-//  Created by Luis Rangel on 23/02/12.
-//  Copyright (c) 2012 INEGI. All rights reserved.
+//  Created by Jesus Cagide on 14/12/11.
+//  Copyright (c) 2011 INEGI. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,7 +11,7 @@
 #import "iControladorVista.h"
 #import "NativeBridgeDelegate.h"
 
-@interface ControladorGraficaSencha : UIView <iControladorVista, NativeBridgeDelegate>
+@interface ControladorGraficaSencha : UIViewController<iControladorVista, NativeBridgeDelegate>
 
 
 - (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge;
@@ -22,7 +22,6 @@
 
 @property(nonatomic , assign)IBOutlet UILabel *etiquetaNombregrafica;
 @property(nonatomic , assign)IBOutlet UIWebView *navegadorWeb;
-@property(nonatomic , assign)IBOutlet UIView * vistaPadre;
 @property(nonatomic, retain) ControladorSencha * controladorSencha;
 
 

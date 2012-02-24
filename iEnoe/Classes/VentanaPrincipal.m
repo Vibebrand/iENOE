@@ -50,12 +50,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    /*if([self controladorMapa])
+    
+    if([self controladorMapa])
         [[self representacionMapa] addSubview:[[self controladorMapa] obtenerRepresentacion]];
-     */
+     
     
     if([self controladorGraficaArea]) {
-        [[self representacionMapa] addSubview:[[self controladorGraficaArea] obtenerRepresentacion]];
+        [[self representacionGraficaArea] addSubview:[[self controladorGraficaArea] obtenerRepresentacion]];
     }
 }
 

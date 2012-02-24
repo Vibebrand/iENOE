@@ -65,6 +65,16 @@
     while((elemento = [it_elementos nextObject])) {
         motor->procesaArchivo([elemento fileSystemRepresentation]);
     }
+    
+    [self performSelector:@selector(ejecutaEntidad:) withObject: nil afterDelay:5];
+}
+
+- (void) ejecutaEntidad: (id) objeto {
+    [self estableceVariable:@"Entidad federativa" valor:@"Aguascalientes"];
+    [self estableceVariable:@"Pais" valor:@"Mexico"];
+    [self estableceVariable:@"Fecha" valor:@"2010"];
+    
+    [self actualizaSecciones];
 }
 
 @end

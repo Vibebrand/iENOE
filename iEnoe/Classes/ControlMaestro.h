@@ -30,5 +30,6 @@ struct MotorIMapa;
 
 - (void) estableceVariable:(NSString *) nombre valor: (NSString *) valor;
 - (void) cargaArchivos;
+- (void) ejecutaEntidad: (id) objeto;
 
 @end

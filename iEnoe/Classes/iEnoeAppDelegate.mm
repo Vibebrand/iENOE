@@ -56,9 +56,7 @@
     // REVISAR
     _controlMaestro = [ControlMaestro new];
     
-    ControladorGraficaSencha * controladorGraficaSenchaArea = [[[ControladorGraficaSencha alloc] initWithFrame: CGRectMake(0, 0, 500, 500)] autorelease];
-    
-    /*
+    ControladorGraficaSencha * controladorGraficaSenchaArea = [[[ControladorGraficaSencha alloc] initWithNibName:@"ControladorGraficaSencha" bundle: [NSBundle mainBundle]] autorelease];
     
     MotorGraficasSencha::IRepresentableSencha * representable2 = new RepresentableSencha([controladorGraficaSenchaArea controladorSencha]);
     
@@ -66,9 +64,13 @@
     
     motorGraficasSencha->registraRepresentable(representable2, "Porcentaje de la poblacion segun caracteristica economica", MotorGraficasSencha::MotorGraficasSencha::Area);
     
+    [_controlMaestro estableceVariable:@"Pais" valor:@""];
+    [_controlMaestro estableceVariable:@"Entidad federativa" valor:@""];
+    [_controlMaestro estableceVariable:@"Fecha" valor:@""];
+    
     [_controlMaestro registraGestorCpp: motorGraficasSencha];
-     */
-     
+    
+    
     [controladorVistaPrincipal setControladorGraficaArea: controladorGraficaSenchaArea];
     
     [_controlMaestro cargaArchivos];

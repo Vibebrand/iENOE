@@ -1,10 +1,11 @@
 //
 //  ControladorGraficaSencha.m
-//  iEnoe
+//  iGlobo
 //
-//  Created by Luis Rangel on 23/02/12.
-//  Copyright (c) 2012 INEGI. All rights reserved.
+//  Created by Jesus Cagide on 14/12/11.
+//  Copyright (c) 2011 INEGI. All rights reserved.
 //
+
 #import "ControladorGraficaSencha.h"
 #import "NativeBridge.h"
 
@@ -13,21 +14,15 @@
 @synthesize  etiquetaNombregrafica;
 @synthesize navegadorWeb;
 @synthesize controladorSencha;
-@synthesize vistaPadre;
 
-- (id)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         [self setControladorSencha:[[ControladorSencha new] autorelease]];
         [[self controladorSencha ] setNativeBridge:[[NativeBridge new] autorelease]];
-        [[self controladorSencha] setNativeBridgeDelegate: self];
-        
-        [self setBackgroundColor: [UIColor yellowColor]];
-        
-        self.navegadorWeb = [[[UIWebView alloc] initWithFrame: frame] autorelease];
-        [self.navegadorWeb setBackgroundColor: [UIColor redColor]];
-        
-        [self addSubview: self.navegadorWeb];
+        [[self controladorSencha] setNativeBridgeDelegate:self];
+        [[self controladorSencha] setVistaPrincipal:[self view]];
     }
     return self;
 }
@@ -38,12 +33,19 @@
     [super dealloc];
 }
 
+- (void)didReceiveMemoryWarning
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
-    [[self controladorSencha] setVistaPrincipal: self];
-    
+    [super viewDidLoad];
     [[self navegadorWeb] setOpaque:NO];
     [[self navegadorWeb] setBackgroundColor:[UIColor clearColor]];
     
@@ -53,6 +55,19 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
+}
+
 -(IBAction) accionarLeyendas:(id)sender {
     [[self navegadorWeb] performSelectorOnMainThread: @selector(stringByEvaluatingJavaScriptFromString:) 
                                           withObject:@"Ext.dispatch({ controller: 'ControladorGrafica', action: 'mostrarFiltroGrafica'});" waitUntilDone:false];
@@ -60,12 +75,12 @@
 
 -(UIView *) obtenerRepresentacionBajoMarco:(CGRect) tamanioVentana
 {
-    return self;
+    return [self view];
+    
 }
-
 -(UIView *) obtenerRepresentacion
 {
-    return self;
+    return [self view];
 }
 
 - (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge
