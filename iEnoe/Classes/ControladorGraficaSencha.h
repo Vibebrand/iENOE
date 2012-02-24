@@ -11,7 +11,7 @@
 #import "iControladorVista.h"
 #import "NativeBridgeDelegate.h"
 
-@interface ControladorGraficaSencha : UIViewController<iControladorVista, NativeBridgeDelegate>
+@interface ControladorGraficaSencha : UIView <iControladorVista, NativeBridgeDelegate>
 
 
 - (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge;
@@ -22,6 +22,7 @@
 
 @property(nonatomic , assign)IBOutlet UILabel *etiquetaNombregrafica;
 @property(nonatomic , assign)IBOutlet UIWebView *navegadorWeb;
+@property(nonatomic , assign)IBOutlet UIView * vistaPadre;
 @property(nonatomic, retain) ControladorSencha * controladorSencha;
 
 

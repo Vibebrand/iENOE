@@ -15,6 +15,10 @@
 
 #import "VentanaPrincipal.h"
 #import "ControladorMapa.h"
+#import "ControladorGraficaSencha.h"
+#import "MotorSenchaAPI.h"
+#import "RepresentableSencha.h"
+#import "ControlMaestro.h"
 
 @implementation iEnoeAppDelegate
 
@@ -47,11 +51,41 @@
     
     [ controladorVistaPrincipal setControladorMapa:[[[ControladorMapa alloc] initWithNibName:@"ControladorMapa" bundle:[NSBundle mainBundle]] autorelease] ];
     
+
+    
+    // REVISAR
+    _controlMaestro = [ControlMaestro new];
+    
+    ControladorGraficaSencha * controladorGraficaSenchaArea = [[[ControladorGraficaSencha alloc] initWithFrame: CGRectMake(0, 0, 500, 500)] autorelease];
+    
+    /*
+    
+    MotorGraficasSencha::IRepresentableSencha * representable2 = new RepresentableSencha([controladorGraficaSenchaArea controladorSencha]);
+    
+    MotorGraficasSencha::MotorGraficasSencha * motorGraficasSencha = new MotorGraficasSencha::MotorGraficasSencha;
+    
+    motorGraficasSencha->registraRepresentable(representable2, "Porcentaje de la poblacion segun caracteristica economica", MotorGraficasSencha::MotorGraficasSencha::Area);
+    
+    [_controlMaestro registraGestorCpp: motorGraficasSencha];
+     */
+     
+    [controladorVistaPrincipal setControladorGraficaArea: controladorGraficaSenchaArea];
+    
+    [_controlMaestro cargaArchivos];
+    
+    [self performSelectorOnMainThread:@selector(postLaunch:) withObject:nil waitUntilDone:NO];
+}
+
+
+- (void)postLaunch:(NSObject *)what
+{
+    // Add the view controller's view to the window and display.
+    //[[_pantallaPrincipal representacionGlobo] addSubview:_controladorRepresentacionGlobo.view];
 	[window addSubview: [controladorVistaPrincipal view]];
-    
 	[window makeKeyAndVisible];
-    
 	[CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA8888];
+    
+    [_controlMaestro actualizaSecciones];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
