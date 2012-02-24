@@ -201,6 +201,7 @@
 		D7D65CE414F56AAF00B3BEC6 /* VentanaPrincipal.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CE214F56AAF00B3BEC6 /* VentanaPrincipal.xib */; };
 		D7D65CEF14F5839F00B3BEC6 /* ControladorMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */; };
 		D7D65CF014F5839F00B3BEC6 /* ControladorMapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */; };
+		D7D65CF614F6DE2800B3BEC6 /* mapmexico37.pod in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -605,6 +606,7 @@
 		D7D65CEC14F5839F00B3BEC6 /* ControladorMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorMapa.h; path = Classes/ControladorMapa.h; sourceTree = "<group>"; };
 		D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorMapa.m; path = Classes/ControladorMapa.m; sourceTree = "<group>"; };
 		D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorMapa.xib; path = Classes/ControladorMapa.xib; sourceTree = "<group>"; };
+		D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = mapmexico37.pod; path = Resources/mapmexico37.pod; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -903,6 +905,7 @@
 		D7D65B7B14F5676700B3BEC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */,
 				D7D65B7C14F5676700B3BEC6 /* Default.png */,
 				D7D65B7E14F5676700B3BEC6 /* fps_images.png */,
 				D7D65B8014F5676700B3BEC6 /* Icon-72.png */,
@@ -1336,6 +1339,7 @@
 				D7D65CD814F5676D00B3BEC6 /* hello-world.pod in Resources */,
 				D7D65CE414F56AAF00B3BEC6 /* VentanaPrincipal.xib in Resources */,
 				D7D65CF014F5839F00B3BEC6 /* ControladorMapa.xib in Resources */,
+				D7D65CF614F6DE2800B3BEC6 /* mapmexico37.pod in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

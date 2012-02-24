@@ -10,7 +10,28 @@
 #import "CC3World.h"
 #import "CC3MeshNode.h"
 
-/** A sample application-specific CC3World subclass.*/
-@interface iEnoeWorld : CC3World {}
+#import "CC3PODResourceNode.h"
+#import "CC3PODLight.h"
+#import "CC3PointParticles.h"
+
+@interface iEnoeWorld : CC3World 
+{
+    CC3PODResourceNode *_modelo3D;
+    CC3Node *_nodoSeleccionado;
+    GLfloat maxTop;
+    GLfloat maxButton;
+    GLfloat maxRigth;
+    GLfloat maxLeft;
+
+}
+
+-(void)zoomThatThing:(CGFloat)theZoom;
+
+-(void)spinThatThing:(CGFloat)x :(CGFloat)y;
+
+@property(nonatomic, retain)NSString* nodoSeleccionado;
+
+-(void)addPOD;
+
 
 @end
