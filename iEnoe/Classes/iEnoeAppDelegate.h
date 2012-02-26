@@ -11,9 +11,14 @@
 #import "CC3World.h"
 #import "VentanaPrincipal.h"
 
+@class ControlMaestro;
+
 @interface iEnoeAppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow* window;
     VentanaPrincipal *controladorVistaPrincipal;
+    
+    ControlMaestro * _controlMaestro;
+    void * _motorGraficasSencha;
 }
 
 

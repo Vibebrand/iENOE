@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830083B814FAE21100DF5341 /* VentanaPrincipal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830083B714FAE21100DF5341 /* VentanaPrincipal.xib */; };
 		D7D65A7A14F5676000B3BEC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */; };
 		D7D65A7C14F5676000B3BEC6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */; };
 		D7D65A7E14F5676000B3BEC6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7D14F5676000B3BEC6 /* OpenAL.framework */; };
@@ -193,18 +194,76 @@
 		D7D65CC214F5676D00B3BEC6 /* ZAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CC114F5676D00B3BEC6 /* ZAttributedString.m */; };
 		D7D65CC614F5676D00B3BEC6 /* ZFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CC514F5676D00B3BEC6 /* ZFont.m */; };
 		D7D65CCC14F5676D00B3BEC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CCB14F5676D00B3BEC6 /* main.m */; };
-		D7D65CD014F5676D00B3BEC6 /* iEnoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CCF14F5676D00B3BEC6 /* iEnoeAppDelegate.m */; };
 		D7D65CD314F5676D00B3BEC6 /* iEnoeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CD214F5676D00B3BEC6 /* iEnoeLayer.m */; };
 		D7D65CD614F5676D00B3BEC6 /* iEnoeWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CD514F5676D00B3BEC6 /* iEnoeWorld.m */; };
 		D7D65CD814F5676D00B3BEC6 /* hello-world.pod in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CD714F5676D00B3BEC6 /* hello-world.pod */; };
 		D7D65CE314F56AAF00B3BEC6 /* VentanaPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CE114F56AAF00B3BEC6 /* VentanaPrincipal.m */; };
-		D7D65CE414F56AAF00B3BEC6 /* VentanaPrincipal.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CE214F56AAF00B3BEC6 /* VentanaPrincipal.xib */; };
 		D7D65CEF14F5839F00B3BEC6 /* ControladorMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */; };
 		D7D65CF014F5839F00B3BEC6 /* ControladorMapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */; };
 		D7D65CF614F6DE2800B3BEC6 /* mapmexico37.pod in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */; };
+		F14D0EAF14F6B5ED006C7FC2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6314F6B5ED006C7FC2 /* .gitignore */; };
+		F14D0EB014F6B5ED006C7FC2 /* iconv.dll in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6C14F6B5ED006C7FC2 /* iconv.dll */; };
+		F14D0EB114F6B5ED006C7FC2 /* iconv.exe in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6D14F6B5ED006C7FC2 /* iconv.exe */; };
+		F14D0EB214F6B5ED006C7FC2 /* libxml2.dll in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6E14F6B5ED006C7FC2 /* libxml2.dll */; };
+		F14D0EB314F6B5ED006C7FC2 /* minigzip.exe in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6F14F6B5ED006C7FC2 /* minigzip.exe */; };
+		F14D0EB414F6B5ED006C7FC2 /* MotorIMapa.exe in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E7014F6B5ED006C7FC2 /* MotorIMapa.exe */; };
+		F14D0EB514F6B5ED006C7FC2 /* xmlcatalog.exe in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E7114F6B5ED006C7FC2 /* xmlcatalog.exe */; };
+		F14D0EB614F6B5ED006C7FC2 /* xmllint.exe in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E7214F6B5ED006C7FC2 /* xmllint.exe */; };
+		F14D0EB714F6B5ED006C7FC2 /* zlib1.dll in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E7314F6B5ED006C7FC2 /* zlib1.dll */; };
+		F14D0EB814F6B5ED006C7FC2 /* info-imapa.xsd in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E7514F6B5ED006C7FC2 /* info-imapa.xsd */; };
+		F14D0EB914F6B5ED006C7FC2 /* Nayarit_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E7614F6B5ED006C7FC2 /* Nayarit_2010.xml */; };
+		F14D0EBA14F6B5ED006C7FC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E7714F6B5ED006C7FC2 /* main.cpp */; };
+		F14D0EBB14F6B5ED006C7FC2 /* Concepto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E7914F6B5ED006C7FC2 /* Concepto.cpp */; };
+		F14D0EBC14F6B5ED006C7FC2 /* Seccion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E7A14F6B5ED006C7FC2 /* Seccion.cpp */; };
+		F14D0EBD14F6B5ED006C7FC2 /* Valor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E7B14F6B5ED006C7FC2 /* Valor.cpp */; };
+		F14D0EBE14F6B5ED006C7FC2 /* ControladorSecciones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E8214F6B5ED006C7FC2 /* ControladorSecciones.cpp */; };
+		F14D0EBF14F6B5ED006C7FC2 /* MotorExtraccion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E8414F6B5ED006C7FC2 /* MotorExtraccion.cpp */; };
+		F14D0EC014F6B5ED006C7FC2 /* LectorXML.c in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E8714F6B5ED006C7FC2 /* LectorXML.c */; };
+		F14D0EC114F6B5ED006C7FC2 /* ServicioParseo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E8B14F6B5ED006C7FC2 /* ServicioParseo.cpp */; };
+		F14D0EC214F6B5ED006C7FC2 /* MotorSencha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E9214F6B5ED006C7FC2 /* MotorSencha.cpp */; };
+		F14D0EC314F6B5ED006C7FC2 /* ServicioGeneradorInformacion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E9514F6B5ED006C7FC2 /* ServicioGeneradorInformacion.cpp */; };
+		F14D0EC414F6B5ED006C7FC2 /* ServicioSerializadorInformacion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E9614F6B5ED006C7FC2 /* ServicioSerializadorInformacion.cpp */; };
+		F14D0EC514F6B5ED006C7FC2 /* Grafica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E9814F6B5ED006C7FC2 /* Grafica.cpp */; };
+		F14D0EC614F6B5ED006C7FC2 /* GraficaArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E9A14F6B5ED006C7FC2 /* GraficaArea.cpp */; };
+		F14D0EC714F6B5ED006C7FC2 /* GraficaPie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0E9C14F6B5ED006C7FC2 /* GraficaPie.cpp */; };
+		F14D0EC814F6B5ED006C7FC2 /* MotorIMapa.1 in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E9E14F6B5ED006C7FC2 /* MotorIMapa.1 */; };
+		F14D0EC914F6B5ED006C7FC2 /* MotorIMapa.cbp in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E9F14F6B5ED006C7FC2 /* MotorIMapa.cbp */; };
+		F14D0ECA14F6B5ED006C7FC2 /* MotorIMapa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EA014F6B5ED006C7FC2 /* MotorIMapa.cpp */; };
+		F14D0ECB14F6B5ED006C7FC2 /* MotorIMapa.depend in Resources */ = {isa = PBXBuildFile; fileRef = F14D0EA114F6B5ED006C7FC2 /* MotorIMapa.depend */; };
+		F14D0ECC14F6B5ED006C7FC2 /* MotorIMapa.layout in Resources */ = {isa = PBXBuildFile; fileRef = F14D0EA314F6B5ED006C7FC2 /* MotorIMapa.layout */; };
+		F14D0ECF14F6B623006C7FC2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F14D0ECE14F6B623006C7FC2 /* libxml2.dylib */; };
+		F14D0ED114F6B6A3006C7FC2 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F14D0ED014F6B6A2006C7FC2 /* libiconv.dylib */; };
+		F14D0ED314F6B6AC006C7FC2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F14D0ED214F6B6AC006C7FC2 /* libz.dylib */; };
+		F14D0ED514F6B6BC006C7FC2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F14D0ED414F6B6BC006C7FC2 /* libsqlite3.dylib */; };
+		F14D0ED914F6B845006C7FC2 /* RepresentableSencha.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0ED814F6B845006C7FC2 /* RepresentableSencha.mm */; };
+		F14D0EE214F6B9B5006C7FC2 /* NativeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EE114F6B9B5006C7FC2 /* NativeBridge.m */; };
+		F14D0EFD14F6BA18006C7FC2 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EE514F6BA18006C7FC2 /* NSObject+SBJson.m */; };
+		F14D0EFE14F6BA18006C7FC2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EE814F6BA18006C7FC2 /* SBJsonParser.m */; };
+		F14D0EFF14F6BA18006C7FC2 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EEA14F6BA18006C7FC2 /* SBJsonStreamParser.m */; };
+		F14D0F0014F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EEC14F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.m */; };
+		F14D0F0114F6BA18006C7FC2 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EEE14F6BA18006C7FC2 /* SBJsonStreamParserAdapter.m */; };
+		F14D0F0214F6BA18006C7FC2 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EF014F6BA18006C7FC2 /* SBJsonStreamParserState.m */; };
+		F14D0F0314F6BA18006C7FC2 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EF214F6BA18006C7FC2 /* SBJsonStreamWriter.m */; };
+		F14D0F0414F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EF414F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.m */; };
+		F14D0F0514F6BA18006C7FC2 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EF614F6BA18006C7FC2 /* SBJsonStreamWriterState.m */; };
+		F14D0F0614F6BA18006C7FC2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EF814F6BA18006C7FC2 /* SBJsonTokeniser.m */; };
+		F14D0F0714F6BA18006C7FC2 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EFA14F6BA18006C7FC2 /* SBJsonUTF8Stream.m */; };
+		F14D0F0814F6BA18006C7FC2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */; };
+		F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */; };
+		F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */; };
+		F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */; };
+		F15FB6FD14F838B90059D397 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F15FB6FC14F838B90059D397 /* www */; };
+		F15FB70314F839F00059D397 /* Aguascalientes_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB6FF14F839F00059D397 /* Aguascalientes_2010.xml */; };
+		F15FB70414F839F00059D397 /* Distrito Federal.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB70014F839F00059D397 /* Distrito Federal.xml */; };
+		F15FB70514F839F00059D397 /* Jalisco_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB70114F839F00059D397 /* Jalisco_2010.xml */; };
+		F15FB70614F839F00059D397 /* Nayarit_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB70214F839F00059D397 /* Nayarit_2010.xml */; };
+		F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */; };
+		F1A1622114F82F8400BB3544 /* ControladorGraficaSencha.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */; };
+		F1A1622214F82F8400BB3544 /* ControladorGraficaSencha.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		830083B714FAE21100DF5341 /* VentanaPrincipal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VentanaPrincipal.xib; path = Classes/VentanaPrincipal.xib; sourceTree = "<group>"; };
 		D7D65A7514F5676000B3BEC6 /* iEnoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEnoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -593,7 +652,6 @@
 		D7D65CCA14F5676D00B3BEC6 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		D7D65CCB14F5676D00B3BEC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7D65CCE14F5676D00B3BEC6 /* iEnoeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iEnoeAppDelegate.h; path = Classes/iEnoeAppDelegate.h; sourceTree = "<group>"; };
-		D7D65CCF14F5676D00B3BEC6 /* iEnoeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iEnoeAppDelegate.m; path = Classes/iEnoeAppDelegate.m; sourceTree = "<group>"; };
 		D7D65CD114F5676D00B3BEC6 /* iEnoeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iEnoeLayer.h; path = Classes/iEnoeLayer.h; sourceTree = "<group>"; };
 		D7D65CD214F5676D00B3BEC6 /* iEnoeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iEnoeLayer.m; path = Classes/iEnoeLayer.m; sourceTree = "<group>"; };
 		D7D65CD414F5676D00B3BEC6 /* iEnoeWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iEnoeWorld.h; path = Classes/iEnoeWorld.h; sourceTree = "<group>"; };
@@ -601,12 +659,117 @@
 		D7D65CD714F5676D00B3BEC6 /* hello-world.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = "hello-world.pod"; path = "Resources/hello-world.pod"; sourceTree = "<group>"; };
 		D7D65CE014F56AAF00B3BEC6 /* VentanaPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VentanaPrincipal.h; path = Classes/VentanaPrincipal.h; sourceTree = "<group>"; };
 		D7D65CE114F56AAF00B3BEC6 /* VentanaPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VentanaPrincipal.m; path = Classes/VentanaPrincipal.m; sourceTree = "<group>"; };
-		D7D65CE214F56AAF00B3BEC6 /* VentanaPrincipal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VentanaPrincipal.xib; path = Classes/VentanaPrincipal.xib; sourceTree = "<group>"; };
 		D7D65CEB14F57F7100B3BEC6 /* iControladorVista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iControladorVista.h; path = Classes/iControladorVista.h; sourceTree = "<group>"; };
 		D7D65CEC14F5839F00B3BEC6 /* ControladorMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorMapa.h; path = Classes/ControladorMapa.h; sourceTree = "<group>"; };
 		D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorMapa.m; path = Classes/ControladorMapa.m; sourceTree = "<group>"; };
 		D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorMapa.xib; path = Classes/ControladorMapa.xib; sourceTree = "<group>"; };
 		D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = mapmexico37.pod; path = Resources/mapmexico37.pod; sourceTree = "<group>"; };
+		F14D0E6314F6B5ED006C7FC2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F14D0E6514F6B5ED006C7FC2 /* Concepto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concepto.h; sourceTree = "<group>"; };
+		F14D0E6614F6B5ED006C7FC2 /* IGestorSecciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGestorSecciones.h; sourceTree = "<group>"; };
+		F14D0E6714F6B5ED006C7FC2 /* IMotorIMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMotorIMapa.h; sourceTree = "<group>"; };
+		F14D0E6814F6B5ED006C7FC2 /* Seccion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seccion.h; sourceTree = "<group>"; };
+		F14D0E6914F6B5ED006C7FC2 /* Valor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Valor.h; sourceTree = "<group>"; };
+		F14D0E6C14F6B5ED006C7FC2 /* iconv.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconv.dll; sourceTree = "<group>"; };
+		F14D0E6D14F6B5ED006C7FC2 /* iconv.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconv.exe; sourceTree = "<group>"; };
+		F14D0E6E14F6B5ED006C7FC2 /* libxml2.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = libxml2.dll; sourceTree = "<group>"; };
+		F14D0E6F14F6B5ED006C7FC2 /* minigzip.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = minigzip.exe; sourceTree = "<group>"; };
+		F14D0E7014F6B5ED006C7FC2 /* MotorIMapa.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = MotorIMapa.exe; sourceTree = "<group>"; };
+		F14D0E7114F6B5ED006C7FC2 /* xmlcatalog.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = xmlcatalog.exe; sourceTree = "<group>"; };
+		F14D0E7214F6B5ED006C7FC2 /* xmllint.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = xmllint.exe; sourceTree = "<group>"; };
+		F14D0E7314F6B5ED006C7FC2 /* zlib1.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = zlib1.dll; sourceTree = "<group>"; };
+		F14D0E7514F6B5ED006C7FC2 /* info-imapa.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "info-imapa.xsd"; sourceTree = "<group>"; };
+		F14D0E7614F6B5ED006C7FC2 /* Nayarit_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Nayarit_2010.xml; sourceTree = "<group>"; };
+		F14D0E7714F6B5ED006C7FC2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F14D0E7914F6B5ED006C7FC2 /* Concepto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Concepto.cpp; sourceTree = "<group>"; };
+		F14D0E7A14F6B5ED006C7FC2 /* Seccion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Seccion.cpp; sourceTree = "<group>"; };
+		F14D0E7B14F6B5ED006C7FC2 /* Valor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Valor.cpp; sourceTree = "<group>"; };
+		F14D0E7E14F6B5ED006C7FC2 /* IControladorSecciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IControladorSecciones.h; sourceTree = "<group>"; };
+		F14D0E7F14F6B5ED006C7FC2 /* IControladorSeccionesDelegado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IControladorSeccionesDelegado.h; sourceTree = "<group>"; };
+		F14D0E8014F6B5ED006C7FC2 /* IMotorExtraccion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMotorExtraccion.h; sourceTree = "<group>"; };
+		F14D0E8214F6B5ED006C7FC2 /* ControladorSecciones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControladorSecciones.cpp; sourceTree = "<group>"; };
+		F14D0E8314F6B5ED006C7FC2 /* ControladorSecciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControladorSecciones.h; sourceTree = "<group>"; };
+		F14D0E8414F6B5ED006C7FC2 /* MotorExtraccion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MotorExtraccion.cpp; sourceTree = "<group>"; };
+		F14D0E8514F6B5ED006C7FC2 /* MotorExtraccion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorExtraccion.h; sourceTree = "<group>"; };
+		F14D0E8714F6B5ED006C7FC2 /* LectorXML.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LectorXML.c; sourceTree = "<group>"; };
+		F14D0E8814F6B5ED006C7FC2 /* LectorXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LectorXML.h; sourceTree = "<group>"; };
+		F14D0E8A14F6B5ED006C7FC2 /* IServicioParseoDelegado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IServicioParseoDelegado.h; sourceTree = "<group>"; };
+		F14D0E8B14F6B5ED006C7FC2 /* ServicioParseo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServicioParseo.cpp; sourceTree = "<group>"; };
+		F14D0E8C14F6B5ED006C7FC2 /* ServicioParseo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicioParseo.h; sourceTree = "<group>"; };
+		F14D0E8F14F6B5ED006C7FC2 /* IRepresentableSecha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRepresentableSecha.h; sourceTree = "<group>"; };
+		F14D0E9014F6B5ED006C7FC2 /* ServicioGeneradorInformacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicioGeneradorInformacion.h; sourceTree = "<group>"; };
+		F14D0E9114F6B5ED006C7FC2 /* ServicioSerializadorInformacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicioSerializadorInformacion.h; sourceTree = "<group>"; };
+		F14D0E9214F6B5ED006C7FC2 /* MotorSencha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MotorSencha.cpp; sourceTree = "<group>"; };
+		F14D0E9314F6B5ED006C7FC2 /* MotorSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorSencha.h; sourceTree = "<group>"; };
+		F14D0E9514F6B5ED006C7FC2 /* ServicioGeneradorInformacion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServicioGeneradorInformacion.cpp; sourceTree = "<group>"; };
+		F14D0E9614F6B5ED006C7FC2 /* ServicioSerializadorInformacion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServicioSerializadorInformacion.cpp; sourceTree = "<group>"; };
+		F14D0E9814F6B5ED006C7FC2 /* Grafica.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Grafica.cpp; sourceTree = "<group>"; };
+		F14D0E9914F6B5ED006C7FC2 /* Grafica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grafica.h; sourceTree = "<group>"; };
+		F14D0E9A14F6B5ED006C7FC2 /* GraficaArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraficaArea.cpp; sourceTree = "<group>"; };
+		F14D0E9B14F6B5ED006C7FC2 /* GraficaArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraficaArea.h; sourceTree = "<group>"; };
+		F14D0E9C14F6B5ED006C7FC2 /* GraficaPie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraficaPie.cpp; sourceTree = "<group>"; };
+		F14D0E9D14F6B5ED006C7FC2 /* GraficaPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraficaPie.h; sourceTree = "<group>"; };
+		F14D0E9E14F6B5ED006C7FC2 /* MotorIMapa.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = MotorIMapa.1; sourceTree = "<group>"; };
+		F14D0E9F14F6B5ED006C7FC2 /* MotorIMapa.cbp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MotorIMapa.cbp; sourceTree = "<group>"; };
+		F14D0EA014F6B5ED006C7FC2 /* MotorIMapa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MotorIMapa.cpp; sourceTree = "<group>"; };
+		F14D0EA114F6B5ED006C7FC2 /* MotorIMapa.depend */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MotorIMapa.depend; sourceTree = "<group>"; };
+		F14D0EA214F6B5ED006C7FC2 /* MotorIMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorIMapa.h; sourceTree = "<group>"; };
+		F14D0EA314F6B5ED006C7FC2 /* MotorIMapa.layout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MotorIMapa.layout; sourceTree = "<group>"; };
+		F14D0EA414F6B5ED006C7FC2 /* MotorIMapaAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorIMapaAPI.h; sourceTree = "<group>"; };
+		F14D0EA514F6B5ED006C7FC2 /* MotorSenchaAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorSenchaAPI.h; sourceTree = "<group>"; };
+		F14D0ECE14F6B623006C7FC2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F14D0ED014F6B6A2006C7FC2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F14D0ED214F6B6AC006C7FC2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F14D0ED414F6B6BC006C7FC2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F14D0ED714F6B845006C7FC2 /* RepresentableSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepresentableSencha.h; path = Classes/RepresentableSencha.h; sourceTree = "<group>"; };
+		F14D0ED814F6B845006C7FC2 /* RepresentableSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RepresentableSencha.mm; path = Classes/RepresentableSencha.mm; sourceTree = "<group>"; };
+		F14D0EDB14F6B8A2006C7FC2 /* IRepresentableSenchaDelegado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRepresentableSenchaDelegado.h; path = Classes/IRepresentableSenchaDelegado.h; sourceTree = "<group>"; };
+		F14D0EDE14F6B9B5006C7FC2 /* INativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INativeBridge.h; path = Classes/INativeBridge.h; sourceTree = "<group>"; };
+		F14D0EDF14F6B9B5006C7FC2 /* NativeBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeBridgeDelegate.h; path = Classes/NativeBridgeDelegate.h; sourceTree = "<group>"; };
+		F14D0EE014F6B9B5006C7FC2 /* NativeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeBridge.h; path = Classes/NativeBridge.h; sourceTree = "<group>"; };
+		F14D0EE114F6B9B5006C7FC2 /* NativeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeBridge.m; path = Classes/NativeBridge.m; sourceTree = "<group>"; };
+		F14D0EE414F6BA18006C7FC2 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "iEnoe/libs/SBJson/NSObject+SBJson.h"; sourceTree = "<group>"; };
+		F14D0EE514F6BA18006C7FC2 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "iEnoe/libs/SBJson/NSObject+SBJson.m"; sourceTree = "<group>"; };
+		F14D0EE614F6BA18006C7FC2 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = iEnoe/libs/SBJson/SBJson.h; sourceTree = "<group>"; };
+		F14D0EE714F6BA18006C7FC2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = iEnoe/libs/SBJson/SBJsonParser.h; sourceTree = "<group>"; };
+		F14D0EE814F6BA18006C7FC2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = iEnoe/libs/SBJson/SBJsonParser.m; sourceTree = "<group>"; };
+		F14D0EE914F6BA18006C7FC2 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = iEnoe/libs/SBJson/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		F14D0EEA14F6BA18006C7FC2 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = iEnoe/libs/SBJson/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		F14D0EEB14F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = iEnoe/libs/SBJson/SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		F14D0EEC14F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = iEnoe/libs/SBJson/SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		F14D0EED14F6BA18006C7FC2 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = iEnoe/libs/SBJson/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		F14D0EEE14F6BA18006C7FC2 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = iEnoe/libs/SBJson/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		F14D0EEF14F6BA18006C7FC2 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = iEnoe/libs/SBJson/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		F14D0EF014F6BA18006C7FC2 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = iEnoe/libs/SBJson/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		F14D0EF114F6BA18006C7FC2 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = iEnoe/libs/SBJson/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		F14D0EF214F6BA18006C7FC2 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = iEnoe/libs/SBJson/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		F14D0EF314F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = iEnoe/libs/SBJson/SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		F14D0EF414F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = iEnoe/libs/SBJson/SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		F14D0EF514F6BA18006C7FC2 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = iEnoe/libs/SBJson/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		F14D0EF614F6BA18006C7FC2 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = iEnoe/libs/SBJson/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		F14D0EF714F6BA18006C7FC2 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = iEnoe/libs/SBJson/SBJsonTokeniser.h; sourceTree = "<group>"; };
+		F14D0EF814F6BA18006C7FC2 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = iEnoe/libs/SBJson/SBJsonTokeniser.m; sourceTree = "<group>"; };
+		F14D0EF914F6BA18006C7FC2 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonUTF8Stream.h; path = iEnoe/libs/SBJson/SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		F14D0EFA14F6BA18006C7FC2 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = iEnoe/libs/SBJson/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		F14D0EFB14F6BA18006C7FC2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = iEnoe/libs/SBJson/SBJsonWriter.h; sourceTree = "<group>"; };
+		F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = iEnoe/libs/SBJson/SBJsonWriter.m; sourceTree = "<group>"; };
+		F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ControladorSencha.mm; path = Classes/ControladorSencha.mm; sourceTree = "<group>"; };
+		F14D0F0D14F6BAF9006C7FC2 /* ControladorSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorSencha.h; path = Classes/ControladorSencha.h; sourceTree = "<group>"; };
+		F14D0F0F14F6D516006C7FC2 /* ControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlMaestro.h; path = Classes/ControlMaestro.h; sourceTree = "<group>"; };
+		F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ControlMaestro.mm; path = Classes/ControlMaestro.mm; sourceTree = "<group>"; };
+		F14D0F1214F6D540006C7FC2 /* iGestorObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iGestorObjectiveC.h; path = Classes/iGestorObjectiveC.h; sourceTree = "<group>"; };
+		F14D0F1314F6D54B006C7FC2 /* iControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iControlMaestro.h; path = Classes/iControlMaestro.h; sourceTree = "<group>"; };
+		F14D0F1414F6D55D006C7FC2 /* GestorCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestorCpp.h; path = Classes/GestorCpp.h; sourceTree = "<group>"; };
+		F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GestorCpp.mm; path = Classes/GestorCpp.mm; sourceTree = "<group>"; };
+		F15FB6FC14F838B90059D397 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		F15FB6FF14F839F00059D397 /* Aguascalientes_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Aguascalientes_2010.xml; path = iEnoe/Classes/Aguascalientes_2010.xml; sourceTree = "<group>"; };
+		F15FB70014F839F00059D397 /* Distrito Federal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Distrito Federal.xml"; path = "iEnoe/Classes/Distrito Federal.xml"; sourceTree = "<group>"; };
+		F15FB70114F839F00059D397 /* Jalisco_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Jalisco_2010.xml; path = iEnoe/Classes/Jalisco_2010.xml; sourceTree = "<group>"; };
+		F15FB70214F839F00059D397 /* Nayarit_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Nayarit_2010.xml; path = iEnoe/Classes/Nayarit_2010.xml; sourceTree = "<group>"; };
+		F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iEnoeAppDelegate.mm; path = Classes/iEnoeAppDelegate.mm; sourceTree = "<group>"; };
+		F1A1621E14F82F8400BB3544 /* ControladorGraficaSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorGraficaSencha.h; path = Classes/ControladorGraficaSencha.h; sourceTree = "<group>"; };
+		F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorGraficaSencha.m; path = Classes/ControladorGraficaSencha.m; sourceTree = "<group>"; };
+		F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorGraficaSencha.xib; path = Classes/ControladorGraficaSencha.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -614,6 +777,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14D0ED514F6B6BC006C7FC2 /* libsqlite3.dylib in Frameworks */,
+				F14D0ED314F6B6AC006C7FC2 /* libz.dylib in Frameworks */,
+				F14D0ED114F6B6A3006C7FC2 /* libiconv.dylib in Frameworks */,
+				F14D0ECF14F6B623006C7FC2 /* libxml2.dylib in Frameworks */,
 				D7D65A7A14F5676000B3BEC6 /* QuartzCore.framework in Frameworks */,
 				D7D65A7C14F5676000B3BEC6 /* OpenGLES.framework in Frameworks */,
 				D7D65A7E14F5676000B3BEC6 /* OpenAL.framework in Frameworks */,
@@ -631,6 +798,11 @@
 		D7D65A6A14F5675F00B3BEC6 = {
 			isa = PBXGroup;
 			children = (
+				F15FB6FF14F839F00059D397 /* Aguascalientes_2010.xml */,
+				F15FB70014F839F00059D397 /* Distrito Federal.xml */,
+				F15FB70114F839F00059D397 /* Jalisco_2010.xml */,
+				F15FB70214F839F00059D397 /* Nayarit_2010.xml */,
+				F15FB6FC14F838B90059D397 /* www */,
 				D7D65A8914F5676100B3BEC6 /* iEnoe */,
 				D7D65A7814F5676000B3BEC6 /* Frameworks */,
 				D7D65A7614F5676000B3BEC6 /* Products */,
@@ -648,6 +820,7 @@
 		D7D65A7814F5676000B3BEC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F14D0EE314F6B9FE006C7FC2 /* SBJSON */,
 				D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */,
 				D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */,
 				D7D65A7D14F5676000B3BEC6 /* OpenAL.framework */,
@@ -924,6 +1097,11 @@
 		D7D65B8F14F5676700B3BEC6 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				F14D0ED414F6B6BC006C7FC2 /* libsqlite3.dylib */,
+				F14D0ED214F6B6AC006C7FC2 /* libz.dylib */,
+				F14D0ED014F6B6A2006C7FC2 /* libiconv.dylib */,
+				F14D0ECE14F6B623006C7FC2 /* libxml2.dylib */,
+				F14D0E6214F6B5ED006C7FC2 /* MotorIMapa */,
 				D7D65C8514F5676B00B3BEC6 /* LICENSE_cocos2d.txt */,
 				D7D65C9414F5676C00B3BEC6 /* LICENSE_CocosDenshion.txt */,
 				D7D65C9F14F5676C00B3BEC6 /* LICENSE_TouchJSON.txt */,
@@ -1235,10 +1413,12 @@
 		D7D65CCD14F5676D00B3BEC6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F14D0EDC14F6B979006C7FC2 /* Servicio */,
+				F14D0ED614F6B834006C7FC2 /* ControladorNegocio */,
 				D7D65CDF14F5696C00B3BEC6 /* ControladorVista */,
 				D7D65CDE14F5695D00B3BEC6 /* Vista */,
 				D7D65CCE14F5676D00B3BEC6 /* iEnoeAppDelegate.h */,
-				D7D65CCF14F5676D00B3BEC6 /* iEnoeAppDelegate.m */,
+				F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1246,8 +1426,9 @@
 		D7D65CDE14F5695D00B3BEC6 /* Vista */ = {
 			isa = PBXGroup;
 			children = (
+				830083B714FAE21100DF5341 /* VentanaPrincipal.xib */,
 				D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */,
-				D7D65CE214F56AAF00B3BEC6 /* VentanaPrincipal.xib */,
+				F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */,
 			);
 			name = Vista;
 			sourceTree = "<group>";
@@ -1264,6 +1445,8 @@
 				D7D65CD514F5676D00B3BEC6 /* iEnoeWorld.m */,
 				D7D65CEC14F5839F00B3BEC6 /* ControladorMapa.h */,
 				D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */,
+				F1A1621E14F82F8400BB3544 /* ControladorGraficaSencha.h */,
+				F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */,
 			);
 			name = ControladorVista;
 			sourceTree = "<group>";
@@ -1274,6 +1457,328 @@
 				D7D65CEB14F57F7100B3BEC6 /* iControladorVista.h */,
 			);
 			name = Protocolos;
+			sourceTree = "<group>";
+		};
+		F14D0E6214F6B5ED006C7FC2 /* MotorIMapa */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E6314F6B5ED006C7FC2 /* .gitignore */,
+				F14D0E6414F6B5ED006C7FC2 /* API */,
+				F14D0E6A14F6B5ED006C7FC2 /* bin */,
+				F14D0E7414F6B5ED006C7FC2 /* Doc */,
+				F14D0E7714F6B5ED006C7FC2 /* main.cpp */,
+				F14D0E7814F6B5ED006C7FC2 /* Modelo */,
+				F14D0E7C14F6B5ED006C7FC2 /* MotorExtraccion */,
+				F14D0E8D14F6B5ED006C7FC2 /* MotorGraficasSencha */,
+				F14D0E9E14F6B5ED006C7FC2 /* MotorIMapa.1 */,
+				F14D0E9F14F6B5ED006C7FC2 /* MotorIMapa.cbp */,
+				F14D0EA014F6B5ED006C7FC2 /* MotorIMapa.cpp */,
+				F14D0EA114F6B5ED006C7FC2 /* MotorIMapa.depend */,
+				F14D0EA214F6B5ED006C7FC2 /* MotorIMapa.h */,
+				F14D0EA314F6B5ED006C7FC2 /* MotorIMapa.layout */,
+				F14D0EA414F6B5ED006C7FC2 /* MotorIMapaAPI.h */,
+				F14D0EA514F6B5ED006C7FC2 /* MotorSenchaAPI.h */,
+				F14D0EA614F6B5ED006C7FC2 /* obj */,
+			);
+			name = MotorIMapa;
+			path = libs/MotorIMapa;
+			sourceTree = "<group>";
+		};
+		F14D0E6414F6B5ED006C7FC2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E6514F6B5ED006C7FC2 /* Concepto.h */,
+				F14D0E6614F6B5ED006C7FC2 /* IGestorSecciones.h */,
+				F14D0E6714F6B5ED006C7FC2 /* IMotorIMapa.h */,
+				F14D0E6814F6B5ED006C7FC2 /* Seccion.h */,
+				F14D0E6914F6B5ED006C7FC2 /* Valor.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F14D0E6A14F6B5ED006C7FC2 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E6B14F6B5ED006C7FC2 /* Debug */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		F14D0E6B14F6B5ED006C7FC2 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E6C14F6B5ED006C7FC2 /* iconv.dll */,
+				F14D0E6D14F6B5ED006C7FC2 /* iconv.exe */,
+				F14D0E6E14F6B5ED006C7FC2 /* libxml2.dll */,
+				F14D0E6F14F6B5ED006C7FC2 /* minigzip.exe */,
+				F14D0E7014F6B5ED006C7FC2 /* MotorIMapa.exe */,
+				F14D0E7114F6B5ED006C7FC2 /* xmlcatalog.exe */,
+				F14D0E7214F6B5ED006C7FC2 /* xmllint.exe */,
+				F14D0E7314F6B5ED006C7FC2 /* zlib1.dll */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		F14D0E7414F6B5ED006C7FC2 /* Doc */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E7514F6B5ED006C7FC2 /* info-imapa.xsd */,
+				F14D0E7614F6B5ED006C7FC2 /* Nayarit_2010.xml */,
+			);
+			path = Doc;
+			sourceTree = "<group>";
+		};
+		F14D0E7814F6B5ED006C7FC2 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E7914F6B5ED006C7FC2 /* Concepto.cpp */,
+				F14D0E7A14F6B5ED006C7FC2 /* Seccion.cpp */,
+				F14D0E7B14F6B5ED006C7FC2 /* Valor.cpp */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		F14D0E7C14F6B5ED006C7FC2 /* MotorExtraccion */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E7D14F6B5ED006C7FC2 /* API */,
+				F14D0E8114F6B5ED006C7FC2 /* Controladores */,
+				F14D0E8414F6B5ED006C7FC2 /* MotorExtraccion.cpp */,
+				F14D0E8514F6B5ED006C7FC2 /* MotorExtraccion.h */,
+				F14D0E8614F6B5ED006C7FC2 /* Servicios */,
+			);
+			path = MotorExtraccion;
+			sourceTree = "<group>";
+		};
+		F14D0E7D14F6B5ED006C7FC2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E7E14F6B5ED006C7FC2 /* IControladorSecciones.h */,
+				F14D0E7F14F6B5ED006C7FC2 /* IControladorSeccionesDelegado.h */,
+				F14D0E8014F6B5ED006C7FC2 /* IMotorExtraccion.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F14D0E8114F6B5ED006C7FC2 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E8214F6B5ED006C7FC2 /* ControladorSecciones.cpp */,
+				F14D0E8314F6B5ED006C7FC2 /* ControladorSecciones.h */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		F14D0E8614F6B5ED006C7FC2 /* Servicios */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E8714F6B5ED006C7FC2 /* LectorXML.c */,
+				F14D0E8814F6B5ED006C7FC2 /* LectorXML.h */,
+				F14D0E8914F6B5ED006C7FC2 /* Protocolos */,
+				F14D0E8B14F6B5ED006C7FC2 /* ServicioParseo.cpp */,
+				F14D0E8C14F6B5ED006C7FC2 /* ServicioParseo.h */,
+			);
+			path = Servicios;
+			sourceTree = "<group>";
+		};
+		F14D0E8914F6B5ED006C7FC2 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E8A14F6B5ED006C7FC2 /* IServicioParseoDelegado.h */,
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		F14D0E8D14F6B5ED006C7FC2 /* MotorGraficasSencha */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E8E14F6B5ED006C7FC2 /* API */,
+				F14D0E9214F6B5ED006C7FC2 /* MotorSencha.cpp */,
+				F14D0E9314F6B5ED006C7FC2 /* MotorSencha.h */,
+				F14D0E9414F6B5ED006C7FC2 /* Servicios */,
+				F14D0E9714F6B5ED006C7FC2 /* vista */,
+			);
+			path = MotorGraficasSencha;
+			sourceTree = "<group>";
+		};
+		F14D0E8E14F6B5ED006C7FC2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E8F14F6B5ED006C7FC2 /* IRepresentableSecha.h */,
+				F14D0E9014F6B5ED006C7FC2 /* ServicioGeneradorInformacion.h */,
+				F14D0E9114F6B5ED006C7FC2 /* ServicioSerializadorInformacion.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F14D0E9414F6B5ED006C7FC2 /* Servicios */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E9514F6B5ED006C7FC2 /* ServicioGeneradorInformacion.cpp */,
+				F14D0E9614F6B5ED006C7FC2 /* ServicioSerializadorInformacion.cpp */,
+			);
+			path = Servicios;
+			sourceTree = "<group>";
+		};
+		F14D0E9714F6B5ED006C7FC2 /* vista */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0E9814F6B5ED006C7FC2 /* Grafica.cpp */,
+				F14D0E9914F6B5ED006C7FC2 /* Grafica.h */,
+				F14D0E9A14F6B5ED006C7FC2 /* GraficaArea.cpp */,
+				F14D0E9B14F6B5ED006C7FC2 /* GraficaArea.h */,
+				F14D0E9C14F6B5ED006C7FC2 /* GraficaPie.cpp */,
+				F14D0E9D14F6B5ED006C7FC2 /* GraficaPie.h */,
+			);
+			path = vista;
+			sourceTree = "<group>";
+		};
+		F14D0EA614F6B5ED006C7FC2 /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EA714F6B5ED006C7FC2 /* Debug */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		F14D0EA714F6B5ED006C7FC2 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EA814F6B5ED006C7FC2 /* Modelo */,
+				F14D0EA914F6B5ED006C7FC2 /* MotorExtraccion */,
+				F14D0EAC14F6B5ED006C7FC2 /* MotorGraficasSencha */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		F14D0EA814F6B5ED006C7FC2 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		F14D0EA914F6B5ED006C7FC2 /* MotorExtraccion */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EAA14F6B5ED006C7FC2 /* Controladores */,
+				F14D0EAB14F6B5ED006C7FC2 /* Servicios */,
+			);
+			path = MotorExtraccion;
+			sourceTree = "<group>";
+		};
+		F14D0EAA14F6B5ED006C7FC2 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		F14D0EAB14F6B5ED006C7FC2 /* Servicios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Servicios;
+			sourceTree = "<group>";
+		};
+		F14D0EAC14F6B5ED006C7FC2 /* MotorGraficasSencha */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EAD14F6B5ED006C7FC2 /* Servicios */,
+				F14D0EAE14F6B5ED006C7FC2 /* vista */,
+			);
+			path = MotorGraficasSencha;
+			sourceTree = "<group>";
+		};
+		F14D0EAD14F6B5ED006C7FC2 /* Servicios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Servicios;
+			sourceTree = "<group>";
+		};
+		F14D0EAE14F6B5ED006C7FC2 /* vista */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vista;
+			sourceTree = "<group>";
+		};
+		F14D0ED614F6B834006C7FC2 /* ControladorNegocio */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EDA14F6B88F006C7FC2 /* Protocolos */,
+				F14D0ED714F6B845006C7FC2 /* RepresentableSencha.h */,
+				F14D0ED814F6B845006C7FC2 /* RepresentableSencha.mm */,
+				F14D0F1414F6D55D006C7FC2 /* GestorCpp.h */,
+				F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */,
+				F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */,
+				F14D0F0D14F6BAF9006C7FC2 /* ControladorSencha.h */,
+				F14D0F0F14F6D516006C7FC2 /* ControlMaestro.h */,
+				F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */,
+			);
+			name = ControladorNegocio;
+			sourceTree = "<group>";
+		};
+		F14D0EDA14F6B88F006C7FC2 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0F1314F6D54B006C7FC2 /* iControlMaestro.h */,
+				F14D0F1214F6D540006C7FC2 /* iGestorObjectiveC.h */,
+				F14D0EDB14F6B8A2006C7FC2 /* IRepresentableSenchaDelegado.h */,
+			);
+			name = Protocolos;
+			sourceTree = "<group>";
+		};
+		F14D0EDC14F6B979006C7FC2 /* Servicio */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EDD14F6B9A1006C7FC2 /* NativeBridge */,
+			);
+			name = Servicio;
+			sourceTree = "<group>";
+		};
+		F14D0EDD14F6B9A1006C7FC2 /* NativeBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EDE14F6B9B5006C7FC2 /* INativeBridge.h */,
+				F14D0EDF14F6B9B5006C7FC2 /* NativeBridgeDelegate.h */,
+				F14D0EE014F6B9B5006C7FC2 /* NativeBridge.h */,
+				F14D0EE114F6B9B5006C7FC2 /* NativeBridge.m */,
+			);
+			name = NativeBridge;
+			sourceTree = "<group>";
+		};
+		F14D0EE314F6B9FE006C7FC2 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F14D0EE414F6BA18006C7FC2 /* NSObject+SBJson.h */,
+				F14D0EE514F6BA18006C7FC2 /* NSObject+SBJson.m */,
+				F14D0EE614F6BA18006C7FC2 /* SBJson.h */,
+				F14D0EE714F6BA18006C7FC2 /* SBJsonParser.h */,
+				F14D0EE814F6BA18006C7FC2 /* SBJsonParser.m */,
+				F14D0EE914F6BA18006C7FC2 /* SBJsonStreamParser.h */,
+				F14D0EEA14F6BA18006C7FC2 /* SBJsonStreamParser.m */,
+				F14D0EEB14F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.h */,
+				F14D0EEC14F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.m */,
+				F14D0EED14F6BA18006C7FC2 /* SBJsonStreamParserAdapter.h */,
+				F14D0EEE14F6BA18006C7FC2 /* SBJsonStreamParserAdapter.m */,
+				F14D0EEF14F6BA18006C7FC2 /* SBJsonStreamParserState.h */,
+				F14D0EF014F6BA18006C7FC2 /* SBJsonStreamParserState.m */,
+				F14D0EF114F6BA18006C7FC2 /* SBJsonStreamWriter.h */,
+				F14D0EF214F6BA18006C7FC2 /* SBJsonStreamWriter.m */,
+				F14D0EF314F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.h */,
+				F14D0EF414F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.m */,
+				F14D0EF514F6BA18006C7FC2 /* SBJsonStreamWriterState.h */,
+				F14D0EF614F6BA18006C7FC2 /* SBJsonStreamWriterState.m */,
+				F14D0EF714F6BA18006C7FC2 /* SBJsonTokeniser.h */,
+				F14D0EF814F6BA18006C7FC2 /* SBJsonTokeniser.m */,
+				F14D0EF914F6BA18006C7FC2 /* SBJsonUTF8Stream.h */,
+				F14D0EFA14F6BA18006C7FC2 /* SBJsonUTF8Stream.m */,
+				F14D0EFB14F6BA18006C7FC2 /* SBJsonWriter.h */,
+				F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1337,9 +1842,30 @@
 				D7D65B8B14F5676700B3BEC6 /* Icon@2x.png in Resources */,
 				D7D65B8E14F5676700B3BEC6 /* iTunesArtwork in Resources */,
 				D7D65CD814F5676D00B3BEC6 /* hello-world.pod in Resources */,
-				D7D65CE414F56AAF00B3BEC6 /* VentanaPrincipal.xib in Resources */,
 				D7D65CF014F5839F00B3BEC6 /* ControladorMapa.xib in Resources */,
 				D7D65CF614F6DE2800B3BEC6 /* mapmexico37.pod in Resources */,
+				F14D0EAF14F6B5ED006C7FC2 /* .gitignore in Resources */,
+				F14D0EB014F6B5ED006C7FC2 /* iconv.dll in Resources */,
+				F14D0EB114F6B5ED006C7FC2 /* iconv.exe in Resources */,
+				F14D0EB214F6B5ED006C7FC2 /* libxml2.dll in Resources */,
+				F14D0EB314F6B5ED006C7FC2 /* minigzip.exe in Resources */,
+				F14D0EB414F6B5ED006C7FC2 /* MotorIMapa.exe in Resources */,
+				F14D0EB514F6B5ED006C7FC2 /* xmlcatalog.exe in Resources */,
+				F14D0EB614F6B5ED006C7FC2 /* xmllint.exe in Resources */,
+				F14D0EB714F6B5ED006C7FC2 /* zlib1.dll in Resources */,
+				F14D0EB814F6B5ED006C7FC2 /* info-imapa.xsd in Resources */,
+				F14D0EB914F6B5ED006C7FC2 /* Nayarit_2010.xml in Resources */,
+				F14D0EC814F6B5ED006C7FC2 /* MotorIMapa.1 in Resources */,
+				F14D0EC914F6B5ED006C7FC2 /* MotorIMapa.cbp in Resources */,
+				F14D0ECB14F6B5ED006C7FC2 /* MotorIMapa.depend in Resources */,
+				F14D0ECC14F6B5ED006C7FC2 /* MotorIMapa.layout in Resources */,
+				F1A1622214F82F8400BB3544 /* ControladorGraficaSencha.xib in Resources */,
+				F15FB6FD14F838B90059D397 /* www in Resources */,
+				F15FB70314F839F00059D397 /* Aguascalientes_2010.xml in Resources */,
+				F15FB70414F839F00059D397 /* Distrito Federal.xml in Resources */,
+				F15FB70514F839F00059D397 /* Jalisco_2010.xml in Resources */,
+				F15FB70614F839F00059D397 /* Nayarit_2010.xml in Resources */,
+				830083B814FAE21100DF5341 /* VentanaPrincipal.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1519,11 +2045,44 @@
 				D7D65CC214F5676D00B3BEC6 /* ZAttributedString.m in Sources */,
 				D7D65CC614F5676D00B3BEC6 /* ZFont.m in Sources */,
 				D7D65CCC14F5676D00B3BEC6 /* main.m in Sources */,
-				D7D65CD014F5676D00B3BEC6 /* iEnoeAppDelegate.m in Sources */,
 				D7D65CD314F5676D00B3BEC6 /* iEnoeLayer.m in Sources */,
 				D7D65CD614F5676D00B3BEC6 /* iEnoeWorld.m in Sources */,
 				D7D65CE314F56AAF00B3BEC6 /* VentanaPrincipal.m in Sources */,
 				D7D65CEF14F5839F00B3BEC6 /* ControladorMapa.m in Sources */,
+				F14D0EBA14F6B5ED006C7FC2 /* main.cpp in Sources */,
+				F14D0EBB14F6B5ED006C7FC2 /* Concepto.cpp in Sources */,
+				F14D0EBC14F6B5ED006C7FC2 /* Seccion.cpp in Sources */,
+				F14D0EBD14F6B5ED006C7FC2 /* Valor.cpp in Sources */,
+				F14D0EBE14F6B5ED006C7FC2 /* ControladorSecciones.cpp in Sources */,
+				F14D0EBF14F6B5ED006C7FC2 /* MotorExtraccion.cpp in Sources */,
+				F14D0EC014F6B5ED006C7FC2 /* LectorXML.c in Sources */,
+				F14D0EC114F6B5ED006C7FC2 /* ServicioParseo.cpp in Sources */,
+				F14D0EC214F6B5ED006C7FC2 /* MotorSencha.cpp in Sources */,
+				F14D0EC314F6B5ED006C7FC2 /* ServicioGeneradorInformacion.cpp in Sources */,
+				F14D0EC414F6B5ED006C7FC2 /* ServicioSerializadorInformacion.cpp in Sources */,
+				F14D0EC514F6B5ED006C7FC2 /* Grafica.cpp in Sources */,
+				F14D0EC614F6B5ED006C7FC2 /* GraficaArea.cpp in Sources */,
+				F14D0EC714F6B5ED006C7FC2 /* GraficaPie.cpp in Sources */,
+				F14D0ECA14F6B5ED006C7FC2 /* MotorIMapa.cpp in Sources */,
+				F14D0ED914F6B845006C7FC2 /* RepresentableSencha.mm in Sources */,
+				F14D0EE214F6B9B5006C7FC2 /* NativeBridge.m in Sources */,
+				F14D0EFD14F6BA18006C7FC2 /* NSObject+SBJson.m in Sources */,
+				F14D0EFE14F6BA18006C7FC2 /* SBJsonParser.m in Sources */,
+				F14D0EFF14F6BA18006C7FC2 /* SBJsonStreamParser.m in Sources */,
+				F14D0F0014F6BA18006C7FC2 /* SBJsonStreamParserAccumulator.m in Sources */,
+				F14D0F0114F6BA18006C7FC2 /* SBJsonStreamParserAdapter.m in Sources */,
+				F14D0F0214F6BA18006C7FC2 /* SBJsonStreamParserState.m in Sources */,
+				F14D0F0314F6BA18006C7FC2 /* SBJsonStreamWriter.m in Sources */,
+				F14D0F0414F6BA18006C7FC2 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				F14D0F0514F6BA18006C7FC2 /* SBJsonStreamWriterState.m in Sources */,
+				F14D0F0614F6BA18006C7FC2 /* SBJsonTokeniser.m in Sources */,
+				F14D0F0714F6BA18006C7FC2 /* SBJsonUTF8Stream.m in Sources */,
+				F14D0F0814F6BA18006C7FC2 /* SBJsonWriter.m in Sources */,
+				F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.mm in Sources */,
+				F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */,
+				F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */,
+				F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */,
+				F1A1622114F82F8400BB3544 /* ControladorGraficaSencha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1598,6 +2157,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iEnoe/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = iEnoe/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1614,6 +2174,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iEnoe/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = iEnoe/Resources/Info.plist;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1642,6 +2203,7 @@
 				D7D65CDD14F5676D00B3BEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

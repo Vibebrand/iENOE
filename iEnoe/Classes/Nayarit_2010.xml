@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<conjunto nombre="Definicion Mosaicos"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.inegi.org.mx/imapa/info" xsi:schemaLocation="http://www.inegi.org.mx/imapa/info info-imapa.xsd ">
+	<variables>
+		<concepto nombre="Fecha">2010</concepto>
+		<concepto nombre="Entidad federativa">Nayarit</concepto>
+	</variables>
+	
+	<conjunto nombre="Distribucion territorial">
+		<seccion nombre="tabla">
+			<concepto nombre="Superficie (km2)" nota="Representa el 1.4% del territorio nacional"> 27857</concepto>
+			<concepto nombre="Densidad de poblacion (hab./km2)"> 38.9 </concepto>
+			<concepto nombre="Total de municipios"> 20
+				<concepto nombre="Tepic">380 249</concepto>
+				<concepto nombre="Bahia de Banderas">124 205</concepto>
+				<concepto nombre="Santiago Ixcuintla">93 074</concepto>
+			</concepto>
+		</seccion>
+	</conjunto>
+	
+	<conjunto nombre="Caracteristicas economicas">
+		<seccion nombre="Porcentaje de la poblacion segun caracteristica economica" tipo-valor="%">
+			<concepto nombre="Activa" nota="De cada 100 personas de 12 agnos...">
+				<valor nombre="Hombres">72.8</valor>
+				<valor nombre="Mujeres">33.4</valor>
+				<concepto nombre="Ocupada">
+					<valor nombre="Hombres">95.6</valor>
+					<valor nombre="Mujeres">98.1</valor>
+				</concepto>
+				<concepto nombre="No ocupada">
+					<valor nombre="Hombres">4.4</valor>
+					<valor nombre="Mujeres">1.9</valor>
+				</concepto>
+			</concepto>
+			<concepto nombre="No Activa" nota="De cada 100 personas de 12 agnos...">
+				<valor nombre="Hombres">26.3</valor>
+				<valor nombre="Mujeres">66.3</valor>
+			</concepto>
+			<concepto nombre="No especificada">
+				<valor nombre="Hombres">0.9</valor>
+				<valor nombre="Mujeres">0.3</valor>
+			</concepto>
+		</seccion>
+		<seccion nombre="Distribucion de la poblacion no economicamente activa segun tipo de actividad" tipo-valor="%">
+			<concepto nombre="Estudiantes">35.3</concepto>
+			<concepto nombre="Personas dedicadas a los quehaceres del hogar">50.4</concepto>
+			<concepto nombre="Jubilados y pensionados">6.1</concepto>
+			<concepto nombre="Personas con alguna limitacion fisica o mental permanente que les impida trabajar">2.9</concepto>
+			<concepto nombre="Personas en otras actividades no economicas">5.3</concepto>
+		</seccion>
+	</conjunto>
+	
+	<conjunto nombre="Composicion por edad y sexo">
+        
+        <seccion nombre="Poblacion Total"> 
+            <concepto nombre="Poblacion Total">1 084 979</concepto>
+            <concepto nombre="Porcentaje de poblacion nacional">1</concepto>
+            <concepto nombre="Relacion hombres-mujeres">99.5</concepto>
+            <concepto nombre="Edad mediana">26</concepto>
+            <concepto nombre="Razon de dependencia por edad">57.3</concepto>
+        </seccion>
+        
+		<seccion nombre="Piramide poblacional" tipo-concepto="Agnos" tipo-valor="Miles">
+			<concepto nombre="0-4">
+				<valor nombre="Hombres">63</valor>
+				<valor nombre="Mujeres">62</valor>
+			</concepto>
+			<concepto nombre="5-9">
+				<valor nombre="Hombres">67</valor>
+				<valor nombre="Mujeres">65</valor>
+			</concepto>
+			<concepto nombre="10-14">
+				<valor nombre="Hombres">60</valor>
+				<valor nombre="Mujeres">65</valor>
+			</concepto>
+			<concepto nombre="15-19">
+				<valor nombre="Hombres">62</valor>
+				<valor nombre="Mujeres">64</valor>
+			</concepto>
+			<concepto nombre="20-24">
+				<valor nombre="Hombres">53</valor>
+				<valor nombre="Mujeres">50</valor>
+			</concepto>
+			<concepto nombre="25-29">
+				<valor nombre="Hombres">48</valor>
+				<valor nombre="Mujeres">45</valor>
+			</concepto>
+			<concepto nombre="30-34">
+				<valor nombre="Hombres">46</valor>
+				<valor nombre="Mujeres">42</valor>
+			</concepto>
+			<concepto nombre="35-39">
+				<valor nombre="Hombres">35</valor>
+				<valor nombre="Mujeres">42</valor>
+			</concepto>
+			<concepto nombre="40-44">
+				<valor nombre="Hombres">39</valor>
+				<valor nombre="Mujeres">41</valor>
+			</concepto>
+			<concepto nombre="45-49">
+				<valor nombre="Hombres">25</valor>
+				<valor nombre="Mujeres">32</valor>
+			</concepto>
+			<concepto nombre="50-54">
+				<valor nombre="Hombres">26</valor>
+				<valor nombre="Mujeres">28</valor>
+			</concepto>
+			<concepto nombre="55-59">
+				<valor nombre="Hombres">19</valor>
+				<valor nombre="Mujeres">21</valor>
+			</concepto>
+			<concepto nombre="60-64">
+				<valor nombre="Hombres">12</valor>
+				<valor nombre="Mujeres">15</valor>
+			</concepto>
+			<concepto nombre="65-69">
+				<valor nombre="Hombres">12</valor>
+				<valor nombre="Mujeres">16</valor>
+			</concepto>
+			<concepto nombre="70-74">
+				<valor nombre="Hombres">3</valor>
+				<valor nombre="Mujeres">6</valor>
+			</concepto>
+			<concepto nombre="75-79">
+				<valor nombre="Hombres">4</valor>
+				<valor nombre="Mujeres">4</valor>
+			</concepto>
+			<concepto nombre="80-84">
+				<valor nombre="Hombres">3</valor>
+				<valor nombre="Mujeres">3</valor>
+			</concepto>
+			<concepto nombre="85+">
+				<valor nombre="Hombres">3</valor>
+				<valor nombre="Mujeres">3</valor>
+			</concepto>
+		</seccion>
+	</conjunto>
+</conjunto>
