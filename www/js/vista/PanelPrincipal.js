@@ -59,11 +59,14 @@ Grafo.PanelPrincipal = Ext.extend(Ext.Panel,{
                                 
         
     },
-    codeInjected:function(_nombre, _valor, _oculto){
+    codeInjected:function(_nombre, _valor, _oculto) {
+	_nombreStr = '' + _nombre
+	_valorStr = '' + _valor
+	_ocultoStr = '' + _oculto
 	Ext.dispatch({
 	    controller: 'ControladorGrafica',
 	    action: 'cambioEnLeyenda',
-	    json:  { nombre : _nombre , valor : _valor, oculto: _oculto }
+	    json:  { nombre : _nombreStr , valor : _valorStr, oculto: _ocultoStr }
 	}); 
     }
 });

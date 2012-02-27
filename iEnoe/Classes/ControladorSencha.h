@@ -18,7 +18,7 @@
 }
 - (void)viewDidLoad;
 
-- (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge;
+- (BOOL)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge;
 
 - (NSString*) pathForResource:(NSString*)resourcepath;
 
@@ -26,6 +26,7 @@
 - (bool) requiereInicializacion;
 - (void) estableceVistaRequerida: (bool) requerida;
 - (void) ejecutaInstruccion: (NSString *) instruccion;
+- (void) estableceValor: (NSString *) valor aVariable: (NSString *) variable requiereActualizacion: (BOOL) actualizar;
 
 @property(nonatomic, assign) id<NativeBridgeDelegate> nativeBridgeDelegate;
 @property(nonatomic, retain) NativeBridge * nativeBridge;

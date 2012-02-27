@@ -52,24 +52,33 @@
     [ controladorVistaPrincipal setControladorMapa:[[[ControladorMapa alloc] initWithNibName:@"ControladorMapa" bundle:[NSBundle mainBundle]] autorelease] ];
     
 
+    // Registro Control Maestro
     
-    // REVISAR
     _controlMaestro = [ControlMaestro new];
-    
-    ControladorGraficaSencha * controladorGraficaSenchaArea = [[[ControladorGraficaSencha alloc] initWithNibName:@"ControladorGraficaSencha" bundle: [NSBundle mainBundle]] autorelease];
-    
-    MotorGraficasSencha::IRepresentableSencha * representable2 = new RepresentableSencha([controladorGraficaSenchaArea controladorSencha]);
-    
-    MotorGraficasSencha::MotorGraficasSencha * motorGraficasSencha = new MotorGraficasSencha::MotorGraficasSencha;
-    
-    motorGraficasSencha->registraRepresentable(representable2, "Porcentaje de la poblacion segun caracteristica economica", MotorGraficasSencha::MotorGraficasSencha::Area);
-    
     [_controlMaestro estableceVariable:@"Pais" valor:@""];
     [_controlMaestro estableceVariable:@"Entidad federativa" valor:@""];
     [_controlMaestro estableceVariable:@"Fecha" valor:@""];
     
+    
+    // Registro Motor Sencha
+    
+    MotorGraficasSencha::MotorGraficasSencha * motorGraficasSencha = new MotorGraficasSencha::MotorGraficasSencha;
+    
+    ControladorSencha * controladorSenchaArea = [[ControladorSencha new] autorelease];
+    [controladorSenchaArea setNativeBridge: [[NativeBridge new] autorelease]];
+    
+    MotorGraficasSencha::IRepresentableSencha * representableSencha = new RepresentableSencha(controladorSenchaArea);
+    
+    motorGraficasSencha->registraRepresentable(representableSencha, 
+                                               "Porcentaje de la poblacion segun caracteristica economica", 
+                                               MotorGraficasSencha::MotorGraficasSencha::Area);
+
     [_controlMaestro registraGestorCpp: motorGraficasSencha];
     
+    
+    // Registro Vista
+    
+    ControladorGraficaSencha * controladorGraficaSenchaArea = [[[ControladorGraficaSencha alloc] initWithNibName:@"ControladorGraficaSencha" bundle: [NSBundle mainBundle] yControladorSencha:controladorSenchaArea] autorelease];
     
     [controladorVistaPrincipal setControladorGraficaArea: controladorGraficaSenchaArea];
     

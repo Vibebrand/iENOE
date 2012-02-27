@@ -15,14 +15,11 @@
 @synthesize navegadorWeb;
 @synthesize controladorSencha;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        [self setControladorSencha:[[ControladorSencha new] autorelease]];
-        [[self controladorSencha ] setNativeBridge:[[NativeBridge new] autorelease]];
-        [[self controladorSencha] setNativeBridgeDelegate:self];
-        [[self controladorSencha] setVistaPrincipal:[self view]];
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil yControladorSencha:(ControladorSencha *) controladorSenchaEntrada {
+    
+    if([self initWithNibName:nibNameOrNil bundle: nibBundleOrNil]) {
+        [self setControladorSencha: controladorSenchaEntrada];
+        [controladorSencha setVistaPrincipal:[self view]];
     }
     return self;
 }
@@ -83,11 +80,14 @@
     return [self view];
 }
 
-- (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge
+- (BOOL) handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge
 {
-    if([functionName isEqualToString: @"graficaActiva"])
+    if([functionName isEqualToString: @"graficaActiva"]) {
         [[self etiquetaNombregrafica] setText:[args objectAtIndex:0]];
+        return YES;
+    }
     
+    return NO;
 }
 
 @end
