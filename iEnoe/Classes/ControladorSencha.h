@@ -26,6 +26,7 @@
 - (bool) requiereInicializacion;
 - (void) estableceVistaRequerida: (bool) requerida;
 - (void) ejecutaInstruccion: (NSString *) instruccion;
+- (void) estableceValor: (NSString *) valor aVariable: (NSString *) variable requiereActualizacion: (BOOL) actualizar;
 
 @property(nonatomic, assign) id<NativeBridgeDelegate> nativeBridgeDelegate;
 @property(nonatomic, retain) NativeBridge * nativeBridge;

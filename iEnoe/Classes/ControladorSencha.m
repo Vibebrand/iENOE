@@ -68,10 +68,45 @@
     salida = [[self nativeBridgeDelegate ] handleCall:functionName callbackId:callbackId args:args webView:_webView andNativeBridge:_nativeBridge];
     
     if(salida == NO) {
+        NSDictionary * diccionarioElementos = [args count] ? [args objectAtIndex: 0] : nil;
         
+        if([functionName isEqualToString: @"serieActualizada" ]) {
+            // Generar notificacion    
+            if(diccionarioElementos) {
+                NSString * nuevaLlave = [diccionarioElementos objectForKey: @"valor"];
+                NSString * nuevoValor = [[diccionarioElementos objectForKey: @"oculto"] isEqualToString: @"true"] 
+                                            ? @"0" 
+                                            : @"1";
+                [self estableceValor:nuevoValor aVariable: nuevaLlave requiereActualizacion: YES];
+            }
+        } else if([functionName isEqualToString: @"estableceVariable"]) {
+            if(diccionarioElementos) {
+                NSString * nuevaLlave = [diccionarioElementos objectForKey: @"variable"];
+                NSString * nuevoValor = [diccionarioElementos objectForKey: @"valor"];
+                BOOL actualizar = [[diccionarioElementos objectForKey: @"actualizar"] isEqualToString: @"true"] 
+                                            ? YES 
+                                            : NO;
+                
+                [self estableceValor:nuevoValor aVariable: nuevaLlave requiereActualizacion: actualizar];
+            }
+        }
     }
     
     return salida;
+}
+
+- (void) estableceValor: (NSString *) valor aVariable: (NSString *) variable requiereActualizacion: (BOOL) actualizar {
+    NSNotification * myNotification =
+    [NSNotification notificationWithName:@"estableceVariable" 
+                                  object:self 
+                                userInfo: [NSDictionary dictionaryWithObjectsAndKeys: variable, @"llave", 
+                                                                                         valor, @"valor", 
+                                                  [NSNumber numberWithInt: actualizar ? 1 : 0], @"actualizar" , nil]];
+    
+    [[NSNotificationQueue defaultQueue] enqueueNotification: myNotification
+                                               postingStyle: NSPostWhenIdle
+                                               coalesceMask: NSNotificationNoCoalescing
+                                                   forModes: nil];
 }
 
 - (bool) requiereInicializacion {

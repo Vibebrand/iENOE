@@ -16,11 +16,15 @@
     self = [super init];
     if (self) {
         motor = new MotorIMapa;
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(notificacionEstableceVariable:) name:@"estableceVariable" object: nil];
     }
     return self;
 }
 
 - (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver: self];
+    
     delete motor;
     
     for(std::set<GestorCpp *>::iterator it_gestores = gestores.begin(); 
@@ -50,7 +54,10 @@
 }
 
 - (void) estableceVariable:(NSString *) nombre valor: (NSString *) valor {
-    motor->estableceCambioVariable([nombre UTF8String], [valor UTF8String]);
+    const char * nombreInteres = [nombre UTF8String];
+    const char * valorInteres = [valor UTF8String];
+    
+    motor->estableceCambioVariable(nombreInteres, valorInteres);
 }
 
 - (void) actualizaSecciones {
@@ -75,6 +82,20 @@
     [self estableceVariable:@"Fecha" valor:@"2010"];
     
     [self actualizaSecciones];
+}
+
+- (void) notificacionEstableceVariable: (NSNotification *) notification {
+    NSString * llave = [[notification userInfo] objectForKey: @"llave"];
+    NSString * valor = [[notification userInfo] objectForKey: @"valor"];
+    id actualizar = [[notification userInfo] objectForKey: @"actualizar"];
+    
+    if(valor && [llave length]) {
+        [self estableceVariable: llave valor: valor];
+    }
+    
+    if ([actualizar boolValue]) {
+        [self actualizaSecciones];
+    }
 }
 
 @end

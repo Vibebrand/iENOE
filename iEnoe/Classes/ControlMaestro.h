@@ -25,6 +25,8 @@ struct MotorIMapa;
     std::set<MotorIMapaAPI::IGestorSecciones *> gestoresCpp;
 }
 
+- (void) notificacionEstableceVariable: (NSNotification *) notification;
+
 - (void) registraGestor: (id<iGestorObjectiveC>) gestor;
 - (void) registraGestorCpp: (MotorIMapaAPI::IGestorSecciones *) gestorSecciones;
 

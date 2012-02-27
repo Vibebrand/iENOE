@@ -249,7 +249,7 @@
 		F14D0F0614F6BA18006C7FC2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EF814F6BA18006C7FC2 /* SBJsonTokeniser.m */; };
 		F14D0F0714F6BA18006C7FC2 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EFA14F6BA18006C7FC2 /* SBJsonUTF8Stream.m */; };
 		F14D0F0814F6BA18006C7FC2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */; };
-		F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */; };
+		F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.m in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.m */; };
 		F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */; };
 		F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */; };
 		F15FB6FD14F838B90059D397 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F15FB6FC14F838B90059D397 /* www */; };
@@ -753,7 +753,7 @@
 		F14D0EFA14F6BA18006C7FC2 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = iEnoe/libs/SBJson/SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		F14D0EFB14F6BA18006C7FC2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = iEnoe/libs/SBJson/SBJsonWriter.h; sourceTree = "<group>"; };
 		F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = iEnoe/libs/SBJson/SBJsonWriter.m; sourceTree = "<group>"; };
-		F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ControladorSencha.mm; path = Classes/ControladorSencha.mm; sourceTree = "<group>"; };
+		F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorSencha.m; path = Classes/ControladorSencha.m; sourceTree = "<group>"; };
 		F14D0F0D14F6BAF9006C7FC2 /* ControladorSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorSencha.h; path = Classes/ControladorSencha.h; sourceTree = "<group>"; };
 		F14D0F0F14F6D516006C7FC2 /* ControlMaestro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlMaestro.h; path = Classes/ControlMaestro.h; sourceTree = "<group>"; };
 		F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ControlMaestro.mm; path = Classes/ControlMaestro.mm; sourceTree = "<group>"; };
@@ -1712,7 +1712,7 @@
 				F14D0ED814F6B845006C7FC2 /* RepresentableSencha.mm */,
 				F14D0F1414F6D55D006C7FC2 /* GestorCpp.h */,
 				F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */,
-				F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.mm */,
+				F14D0F0C14F6BAF9006C7FC2 /* ControladorSencha.m */,
 				F14D0F0D14F6BAF9006C7FC2 /* ControladorSencha.h */,
 				F14D0F0F14F6D516006C7FC2 /* ControlMaestro.h */,
 				F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */,
@@ -2078,7 +2078,7 @@
 				F14D0F0614F6BA18006C7FC2 /* SBJsonTokeniser.m in Sources */,
 				F14D0F0714F6BA18006C7FC2 /* SBJsonUTF8Stream.m in Sources */,
 				F14D0F0814F6BA18006C7FC2 /* SBJsonWriter.m in Sources */,
-				F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.mm in Sources */,
+				F14D0F0E14F6BAFA006C7FC2 /* ControladorSencha.m in Sources */,
 				F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */,
 				F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */,
 				F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */,
