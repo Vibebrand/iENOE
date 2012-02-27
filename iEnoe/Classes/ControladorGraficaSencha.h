@@ -11,10 +11,12 @@
 #import "iControladorVista.h"
 #import "NativeBridgeDelegate.h"
 
+
 @interface ControladorGraficaSencha : UIViewController<iControladorVista, NativeBridgeDelegate>
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil yControladorSencha: (ControladorSencha *) controladorSencha;
 
-- (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge;
+- (BOOL)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)webView andNativeBridge: (id<INativeBridge>) nativeBridge;
 
 -(UIView *) obtenerRepresentacionBajoMarco:(CGRect) tamanioVentana;
 -(UIView *) obtenerRepresentacion;

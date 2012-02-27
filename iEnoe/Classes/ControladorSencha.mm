@@ -34,7 +34,7 @@
 - (void)viewDidLoad
 {
     [[self webView] setDelegate: [self nativeBridge]];
-    [[self nativeBridge] setDelegate:[self nativeBridgeDelegate]];
+    [[self nativeBridge] setDelegate: self];
     
     // Carga de html en webView
     NSString * startFilePath = [self pathForResource:@"index.html"];
@@ -62,9 +62,16 @@
                            inDirectory:directoryStr];
 }
 
-- (void)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)_webView andNativeBridge: (id<INativeBridge>) _nativeBridge {
+- (BOOL)handleCall:(NSString*)functionName callbackId:(int)callbackId args:(NSArray*)args webView: (UIWebView *)_webView andNativeBridge: (id<INativeBridge>) _nativeBridge {
+    BOOL salida = NO;
     
-    [[self nativeBridgeDelegate ] handleCall:functionName callbackId:callbackId args:args webView:_webView andNativeBridge:_nativeBridge];
+    salida = [[self nativeBridgeDelegate ] handleCall:functionName callbackId:callbackId args:args webView:_webView andNativeBridge:_nativeBridge];
+    
+    if(salida == NO) {
+        
+    }
+    
+    return salida;
 }
 
 - (bool) requiereInicializacion {
