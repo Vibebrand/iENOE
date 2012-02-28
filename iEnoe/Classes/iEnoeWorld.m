@@ -48,6 +48,7 @@
     self.shouldClearDepthBufferBefore2D = NO;
 	self.shouldClearDepthBufferBefore3D = NO;
 	[[CCDirector sharedDirector] setDepthTest: NO];
+
     
     self.drawingSequencer = [CC3BTreeNodeSequencer sequencerLocalContentOpaqueFirst];
     

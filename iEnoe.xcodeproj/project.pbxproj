@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		830083B814FAE21100DF5341 /* VentanaPrincipal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830083B714FAE21100DF5341 /* VentanaPrincipal.xib */; };
+		830083E114FB0B8400DF5341 /* ControladorLeyenda.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083DF14FB0B8400DF5341 /* ControladorLeyenda.m */; };
+		830083E214FB0B8400DF5341 /* ControladorLeyenda.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830083E014FB0B8400DF5341 /* ControladorLeyenda.xib */; };
+		830083E514FB0BFE00DF5341 /* CeldaLeyendaEntidad.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083E414FB0BFE00DF5341 /* CeldaLeyendaEntidad.m */; };
+		830083E714FB0C4C00DF5341 /* CeldaLeyenda.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830083E614FB0C4C00DF5341 /* CeldaLeyenda.xib */; };
+		830083EC14FB0D0B00DF5341 /* drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083E914FB0D0B00DF5341 /* drawing.m */; };
+		830083ED14FB0D0B00DF5341 /* PDColoredProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083EB14FB0D0B00DF5341 /* PDColoredProgressView.m */; };
+		830083F114FB187F00DF5341 /* Entidad.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083F014FB187F00DF5341 /* Entidad.m */; };
 		D7D65A7A14F5676000B3BEC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */; };
 		D7D65A7C14F5676000B3BEC6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */; };
 		D7D65A7E14F5676000B3BEC6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7D14F5676000B3BEC6 /* OpenAL.framework */; };
@@ -264,6 +271,17 @@
 
 /* Begin PBXFileReference section */
 		830083B714FAE21100DF5341 /* VentanaPrincipal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VentanaPrincipal.xib; path = Classes/VentanaPrincipal.xib; sourceTree = "<group>"; };
+		830083DE14FB0B8400DF5341 /* ControladorLeyenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorLeyenda.h; path = Classes/ControladorLeyenda.h; sourceTree = "<group>"; };
+		830083DF14FB0B8400DF5341 /* ControladorLeyenda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorLeyenda.m; path = Classes/ControladorLeyenda.m; sourceTree = "<group>"; };
+		830083E014FB0B8400DF5341 /* ControladorLeyenda.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorLeyenda.xib; path = Classes/ControladorLeyenda.xib; sourceTree = "<group>"; };
+		830083E314FB0BFE00DF5341 /* CeldaLeyendaEntidad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CeldaLeyendaEntidad.h; path = Classes/CeldaLeyendaEntidad.h; sourceTree = "<group>"; };
+		830083E414FB0BFE00DF5341 /* CeldaLeyendaEntidad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CeldaLeyendaEntidad.m; path = Classes/CeldaLeyendaEntidad.m; sourceTree = "<group>"; };
+		830083E614FB0C4C00DF5341 /* CeldaLeyenda.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaLeyenda.xib; sourceTree = "<group>"; };
+		830083E914FB0D0B00DF5341 /* drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = drawing.m; path = Classes/drawing.m; sourceTree = "<group>"; };
+		830083EA14FB0D0B00DF5341 /* PDColoredProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDColoredProgressView.h; path = Classes/PDColoredProgressView.h; sourceTree = "<group>"; };
+		830083EB14FB0D0B00DF5341 /* PDColoredProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDColoredProgressView.m; path = Classes/PDColoredProgressView.m; sourceTree = "<group>"; };
+		830083EF14FB187F00DF5341 /* Entidad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entidad.h; path = Classes/Entidad.h; sourceTree = "<group>"; };
+		830083F014FB187F00DF5341 /* Entidad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entidad.m; path = Classes/Entidad.m; sourceTree = "<group>"; };
 		D7D65A7514F5676000B3BEC6 /* iEnoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEnoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -795,6 +813,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		830083DC14FB0B5A00DF5341 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				830083E314FB0BFE00DF5341 /* CeldaLeyendaEntidad.h */,
+				830083E414FB0BFE00DF5341 /* CeldaLeyendaEntidad.m */,
+				830083E614FB0C4C00DF5341 /* CeldaLeyenda.xib */,
+			);
+			name = Componentes;
+			sourceTree = "<group>";
+		};
+		830083E814FB0CE300DF5341 /* Utilidades */ = {
+			isa = PBXGroup;
+			children = (
+				830083E914FB0D0B00DF5341 /* drawing.m */,
+				830083EA14FB0D0B00DF5341 /* PDColoredProgressView.h */,
+				830083EB14FB0D0B00DF5341 /* PDColoredProgressView.m */,
+			);
+			name = Utilidades;
+			sourceTree = "<group>";
+		};
+		830083EE14FB184400DF5341 /* modelo-vista */ = {
+			isa = PBXGroup;
+			children = (
+				830083EF14FB187F00DF5341 /* Entidad.h */,
+				830083F014FB187F00DF5341 /* Entidad.m */,
+			);
+			name = "modelo-vista";
+			sourceTree = "<group>";
+		};
 		D7D65A6A14F5675F00B3BEC6 = {
 			isa = PBXGroup;
 			children = (
@@ -1426,6 +1473,7 @@
 		D7D65CDE14F5695D00B3BEC6 /* Vista */ = {
 			isa = PBXGroup;
 			children = (
+				830083E014FB0B8400DF5341 /* ControladorLeyenda.xib */,
 				830083B714FAE21100DF5341 /* VentanaPrincipal.xib */,
 				D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */,
 				F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */,
@@ -1436,6 +1484,9 @@
 		D7D65CDF14F5696C00B3BEC6 /* ControladorVista */ = {
 			isa = PBXGroup;
 			children = (
+				830083EE14FB184400DF5341 /* modelo-vista */,
+				830083E814FB0CE300DF5341 /* Utilidades */,
+				830083DC14FB0B5A00DF5341 /* Componentes */,
 				D7D65CEA14F56F3200B3BEC6 /* Protocolos */,
 				D7D65CE014F56AAF00B3BEC6 /* VentanaPrincipal.h */,
 				D7D65CE114F56AAF00B3BEC6 /* VentanaPrincipal.m */,
@@ -1447,6 +1498,8 @@
 				D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */,
 				F1A1621E14F82F8400BB3544 /* ControladorGraficaSencha.h */,
 				F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */,
+				830083DE14FB0B8400DF5341 /* ControladorLeyenda.h */,
+				830083DF14FB0B8400DF5341 /* ControladorLeyenda.m */,
 			);
 			name = ControladorVista;
 			sourceTree = "<group>";
@@ -1866,6 +1919,8 @@
 				F15FB70514F839F00059D397 /* Jalisco_2010.xml in Resources */,
 				F15FB70614F839F00059D397 /* Nayarit_2010.xml in Resources */,
 				830083B814FAE21100DF5341 /* VentanaPrincipal.xib in Resources */,
+				830083E214FB0B8400DF5341 /* ControladorLeyenda.xib in Resources */,
+				830083E714FB0C4C00DF5341 /* CeldaLeyenda.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2083,6 +2138,11 @@
 				F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */,
 				F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */,
 				F1A1622114F82F8400BB3544 /* ControladorGraficaSencha.m in Sources */,
+				830083E114FB0B8400DF5341 /* ControladorLeyenda.m in Sources */,
+				830083E514FB0BFE00DF5341 /* CeldaLeyendaEntidad.m in Sources */,
+				830083EC14FB0D0B00DF5341 /* drawing.m in Sources */,
+				830083ED14FB0D0B00DF5341 /* PDColoredProgressView.m in Sources */,
+				830083F114FB187F00DF5341 /* Entidad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

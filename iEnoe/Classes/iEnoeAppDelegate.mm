@@ -19,7 +19,7 @@
 #import "MotorSenchaAPI.h"
 #import "RepresentableSencha.h"
 #import "ControlMaestro.h"
-
+#import "ControladorLeyenda.h"
 @implementation iEnoeAppDelegate
 
 @synthesize window;
@@ -51,7 +51,8 @@
     
     [ controladorVistaPrincipal setControladorMapa:[[[ControladorMapa alloc] initWithNibName:@"ControladorMapa" bundle:[NSBundle mainBundle]] autorelease] ];
     
-
+    [ controladorVistaPrincipal setControladorLeyanda:[[[ControladorLeyenda alloc] initWithNibName:@"ControladorLeyenda" bundle:[NSBundle mainBundle]] autorelease] ];
+    
     
     // REVISAR
     _controlMaestro = [ControlMaestro new];

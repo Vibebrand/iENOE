@@ -7,6 +7,7 @@
 //
 
 #import "ControladorMapa.h"
+#import "CC3OpenGLES11Engine.h";
 
 @implementation ControladorMapa
 
@@ -42,6 +43,7 @@
     
     self.director = [CCDirector sharedDirector];
     
+
     _glView = [CC3EAGLView viewWithFrame: [[self view] bounds] 
 									  pixelFormat: kEAGLColorFormatRGBA8
 									  depthFormat: GL_DEPTH_COMPONENT16_OES
@@ -49,12 +51,16 @@
 									   sharegroup: nil
 									multiSampling: NO
 								  numberOfSamples: 4];
-    
+
 	[_glView setMultipleTouchEnabled: YES];
-	
+    
+    _glView.backgroundColor = [UIColor clearColor];
+    _glView.opaque = YES;
+    [CC3OpenGLES11Engine engine].state.clearColor.value= kCCC4FBlackTransparent;
+    
 	[director setOpenGLView:_glView];
     
-    [[self view] addSubview:_glView];
+    [[self view] insertSubview:_glView atIndex:0];
     
     CC3Layer* cc3Layer = [iEnoeLayer node];
 	

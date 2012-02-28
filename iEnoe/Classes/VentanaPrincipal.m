@@ -15,6 +15,8 @@
 @synthesize controladorMapa;
 @synthesize representacionGraficaArea;
 @synthesize controladorGraficaArea;
+@synthesize representacionLeyenda;
+@synthesize controladorLeyanda;
 
 -(void)dealloc
 {
@@ -22,6 +24,9 @@
     self.controladorMapa = nil;
     self.representacionGraficaArea = nil;
     self.controladorGraficaArea = nil;
+    self.representacionLeyenda = nil;
+    self.controladorLeyanda = nil;
+    
     [super dealloc];
 }
 
@@ -50,12 +55,13 @@
     [super viewDidLoad];
     
     if([self controladorMapa])
-        [[self representacionMapa] addSubview:[[self controladorMapa] obtenerRepresentacion]];
+        [[self representacionMapa] insertSubview:[[self controladorMapa]obtenerRepresentacion] atIndex:0];
      
-    
-    if([self controladorGraficaArea]) {
+    if([self controladorGraficaArea]) 
         [[self representacionGraficaArea] addSubview:[[self controladorGraficaArea] obtenerRepresentacion]];
-    }
+    
+    if([self controladorLeyanda])
+        [[self representacionLeyenda] insertSubview:[[self controladorLeyanda] obtenerRepresentacion] atIndex:0];
 }
 
 - (void)viewDidUnload

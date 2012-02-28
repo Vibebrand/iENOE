@@ -12,8 +12,14 @@
 @interface VentanaPrincipal : UIViewController
 
 @property(nonatomic, retain)id<iControladorVista> controladorMapa;
+@property(nonatomic, retain) id<iControladorVista> controladorGraficaArea;
+@property(nonatomic, retain) id<iControladorVista> controladorLeyanda;
+
+
 @property(nonatomic, assign) IBOutlet UIView * representacionMapa;
 @property(nonatomic, assign) IBOutlet UIView * representacionGraficaArea;
-@property(nonatomic, retain) id<iControladorVista> controladorGraficaArea;
+@property(nonatomic, assign) IBOutlet UIView * representacionLeyenda;
+
+
 
 @end
