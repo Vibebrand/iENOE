@@ -253,11 +253,15 @@
 		F14D0F1114F6D517006C7FC2 /* ControlMaestro.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1014F6D517006C7FC2 /* ControlMaestro.mm */; };
 		F14D0F1614F6D55E006C7FC2 /* GestorCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */; };
 		F15FB6FD14F838B90059D397 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F15FB6FC14F838B90059D397 /* www */; };
-		F15FB70314F839F00059D397 /* Aguascalientes_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB6FF14F839F00059D397 /* Aguascalientes_2010.xml */; };
-		F15FB70414F839F00059D397 /* Distrito Federal.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB70014F839F00059D397 /* Distrito Federal.xml */; };
-		F15FB70514F839F00059D397 /* Jalisco_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB70114F839F00059D397 /* Jalisco_2010.xml */; };
-		F15FB70614F839F00059D397 /* Nayarit_2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F15FB70214F839F00059D397 /* Nayarit_2010.xml */; };
 		F175E73F14F6EBC700AACB85 /* iEnoeAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */; };
+		F1924C6B1509562A00D5365E /* Configuracion.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C631509562A00D5365E /* Configuracion.xml */; };
+		F1924C6C1509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */; };
+		F1924C6D1509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */; };
+		F1924C6E1509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */; };
+		F1924C6F1509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */; };
+		F1924C701509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */; };
+		F1924C711509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */; };
+		F1924C721509562A00D5365E /* info-imapa.xsd in Resources */ = {isa = PBXBuildFile; fileRef = F1924C6A1509562A00D5365E /* info-imapa.xsd */; };
 		F1A1622114F82F8400BB3544 /* ControladorGraficaSencha.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */; };
 		F1A1622214F82F8400BB3544 /* ControladorGraficaSencha.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */; };
 /* End PBXBuildFile section */
@@ -762,11 +766,15 @@
 		F14D0F1414F6D55D006C7FC2 /* GestorCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GestorCpp.h; path = Classes/GestorCpp.h; sourceTree = "<group>"; };
 		F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GestorCpp.mm; path = Classes/GestorCpp.mm; sourceTree = "<group>"; };
 		F15FB6FC14F838B90059D397 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		F15FB6FF14F839F00059D397 /* Aguascalientes_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Aguascalientes_2010.xml; path = iEnoe/Classes/Aguascalientes_2010.xml; sourceTree = "<group>"; };
-		F15FB70014F839F00059D397 /* Distrito Federal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Distrito Federal.xml"; path = "iEnoe/Classes/Distrito Federal.xml"; sourceTree = "<group>"; };
-		F15FB70114F839F00059D397 /* Jalisco_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Jalisco_2010.xml; path = iEnoe/Classes/Jalisco_2010.xml; sourceTree = "<group>"; };
-		F15FB70214F839F00059D397 /* Nayarit_2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Nayarit_2010.xml; path = iEnoe/Classes/Nayarit_2010.xml; sourceTree = "<group>"; };
 		F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iEnoeAppDelegate.mm; path = Classes/iEnoeAppDelegate.mm; sourceTree = "<group>"; };
+		F1924C631509562A00D5365E /* Configuracion.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Configuracion.xml; path = iEnoe/Classes/Configuracion.xml; sourceTree = "<group>"; };
+		F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE - Tabla 2010.xml"; path = "iEnoe/Classes/IndicadoresENOE - Tabla 2010.xml"; sourceTree = "<group>"; };
+		F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE - Tabla 2011.xml"; path = "iEnoe/Classes/IndicadoresENOE - Tabla 2011.xml"; sourceTree = "<group>"; };
+		F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Bienestar 2010.xml"; path = "iEnoe/Classes/IndicadoresENOE-Bienestar 2010.xml"; sourceTree = "<group>"; };
+		F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Bienestar 2011.xml"; path = "iEnoe/Classes/IndicadoresENOE-Bienestar 2011.xml"; sourceTree = "<group>"; };
+		F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Desempeño 2010-2009.xml"; path = "iEnoe/Classes/IndicadoresENOE-Desempeño 2010-2009.xml"; sourceTree = "<group>"; };
+		F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Desempeño 2011-2010.xml"; path = "iEnoe/Classes/IndicadoresENOE-Desempeño 2011-2010.xml"; sourceTree = "<group>"; };
+		F1924C6A1509562A00D5365E /* info-imapa.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "info-imapa.xsd"; path = "iEnoe/Classes/info-imapa.xsd"; sourceTree = "<group>"; };
 		F1A1621E14F82F8400BB3544 /* ControladorGraficaSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorGraficaSencha.h; path = Classes/ControladorGraficaSencha.h; sourceTree = "<group>"; };
 		F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorGraficaSencha.m; path = Classes/ControladorGraficaSencha.m; sourceTree = "<group>"; };
 		F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorGraficaSencha.xib; path = Classes/ControladorGraficaSencha.xib; sourceTree = "<group>"; };
@@ -798,10 +806,14 @@
 		D7D65A6A14F5675F00B3BEC6 = {
 			isa = PBXGroup;
 			children = (
-				F15FB6FF14F839F00059D397 /* Aguascalientes_2010.xml */,
-				F15FB70014F839F00059D397 /* Distrito Federal.xml */,
-				F15FB70114F839F00059D397 /* Jalisco_2010.xml */,
-				F15FB70214F839F00059D397 /* Nayarit_2010.xml */,
+				F1924C631509562A00D5365E /* Configuracion.xml */,
+				F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */,
+				F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */,
+				F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */,
+				F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */,
+				F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */,
+				F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */,
+				F1924C6A1509562A00D5365E /* info-imapa.xsd */,
 				F15FB6FC14F838B90059D397 /* www */,
 				D7D65A8914F5676100B3BEC6 /* iEnoe */,
 				D7D65A7814F5676000B3BEC6 /* Frameworks */,
@@ -1861,11 +1873,15 @@
 				F14D0ECC14F6B5ED006C7FC2 /* MotorIMapa.layout in Resources */,
 				F1A1622214F82F8400BB3544 /* ControladorGraficaSencha.xib in Resources */,
 				F15FB6FD14F838B90059D397 /* www in Resources */,
-				F15FB70314F839F00059D397 /* Aguascalientes_2010.xml in Resources */,
-				F15FB70414F839F00059D397 /* Distrito Federal.xml in Resources */,
-				F15FB70514F839F00059D397 /* Jalisco_2010.xml in Resources */,
-				F15FB70614F839F00059D397 /* Nayarit_2010.xml in Resources */,
 				830083B814FAE21100DF5341 /* VentanaPrincipal.xib in Resources */,
+				F1924C6B1509562A00D5365E /* Configuracion.xml in Resources */,
+				F1924C6C1509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml in Resources */,
+				F1924C6D1509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml in Resources */,
+				F1924C6E1509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml in Resources */,
+				F1924C6F1509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml in Resources */,
+				F1924C701509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml in Resources */,
+				F1924C711509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml in Resources */,
+				F1924C721509562A00D5365E /* info-imapa.xsd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
