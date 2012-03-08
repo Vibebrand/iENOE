@@ -767,14 +767,14 @@
 		F14D0F1514F6D55E006C7FC2 /* GestorCpp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GestorCpp.mm; path = Classes/GestorCpp.mm; sourceTree = "<group>"; };
 		F15FB6FC14F838B90059D397 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		F175E73E14F6EBC700AACB85 /* iEnoeAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iEnoeAppDelegate.mm; path = Classes/iEnoeAppDelegate.mm; sourceTree = "<group>"; };
-		F1924C631509562A00D5365E /* Configuracion.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Configuracion.xml; path = iEnoe/Classes/Configuracion.xml; sourceTree = "<group>"; };
-		F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE - Tabla 2010.xml"; path = "iEnoe/Classes/IndicadoresENOE - Tabla 2010.xml"; sourceTree = "<group>"; };
-		F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE - Tabla 2011.xml"; path = "iEnoe/Classes/IndicadoresENOE - Tabla 2011.xml"; sourceTree = "<group>"; };
-		F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Bienestar 2010.xml"; path = "iEnoe/Classes/IndicadoresENOE-Bienestar 2010.xml"; sourceTree = "<group>"; };
-		F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Bienestar 2011.xml"; path = "iEnoe/Classes/IndicadoresENOE-Bienestar 2011.xml"; sourceTree = "<group>"; };
-		F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Desempeño 2010-2009.xml"; path = "iEnoe/Classes/IndicadoresENOE-Desempeño 2010-2009.xml"; sourceTree = "<group>"; };
-		F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Desempeño 2011-2010.xml"; path = "iEnoe/Classes/IndicadoresENOE-Desempeño 2011-2010.xml"; sourceTree = "<group>"; };
-		F1924C6A1509562A00D5365E /* info-imapa.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "info-imapa.xsd"; path = "iEnoe/Classes/info-imapa.xsd"; sourceTree = "<group>"; };
+		F1924C631509562A00D5365E /* Configuracion.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Configuracion.xml; path = Classes/Configuracion.xml; sourceTree = "<group>"; };
+		F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE - Tabla 2010.xml"; path = "Classes/IndicadoresENOE - Tabla 2010.xml"; sourceTree = "<group>"; };
+		F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE - Tabla 2011.xml"; path = "Classes/IndicadoresENOE - Tabla 2011.xml"; sourceTree = "<group>"; };
+		F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Bienestar 2010.xml"; path = "Classes/IndicadoresENOE-Bienestar 2010.xml"; sourceTree = "<group>"; };
+		F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Bienestar 2011.xml"; path = "Classes/IndicadoresENOE-Bienestar 2011.xml"; sourceTree = "<group>"; };
+		F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Desempeño 2010-2009.xml"; path = "Classes/IndicadoresENOE-Desempeño 2010-2009.xml"; sourceTree = "<group>"; };
+		F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "IndicadoresENOE-Desempeño 2011-2010.xml"; path = "Classes/IndicadoresENOE-Desempeño 2011-2010.xml"; sourceTree = "<group>"; };
+		F1924C6A1509562A00D5365E /* info-imapa.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "info-imapa.xsd"; path = "Classes/info-imapa.xsd"; sourceTree = "<group>"; };
 		F1A1621E14F82F8400BB3544 /* ControladorGraficaSencha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorGraficaSencha.h; path = Classes/ControladorGraficaSencha.h; sourceTree = "<group>"; };
 		F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorGraficaSencha.m; path = Classes/ControladorGraficaSencha.m; sourceTree = "<group>"; };
 		F1A1622014F82F8400BB3544 /* ControladorGraficaSencha.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorGraficaSencha.xib; path = Classes/ControladorGraficaSencha.xib; sourceTree = "<group>"; };
@@ -806,14 +806,6 @@
 		D7D65A6A14F5675F00B3BEC6 = {
 			isa = PBXGroup;
 			children = (
-				F1924C631509562A00D5365E /* Configuracion.xml */,
-				F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */,
-				F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */,
-				F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */,
-				F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */,
-				F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */,
-				F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */,
-				F1924C6A1509562A00D5365E /* info-imapa.xsd */,
 				F15FB6FC14F838B90059D397 /* www */,
 				D7D65A8914F5676100B3BEC6 /* iEnoe */,
 				D7D65A7814F5676000B3BEC6 /* Frameworks */,
@@ -1416,6 +1408,7 @@
 		D7D65CC914F5676D00B3BEC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1924C741509581600D5365E /* Indicadores Iniciales */,
 				D7D65CCA14F5676D00B3BEC6 /* Prefix.pch */,
 				D7D65CCB14F5676D00B3BEC6 /* main.m */,
 			);
@@ -1791,6 +1784,21 @@
 				F14D0EFC14F6BA18006C7FC2 /* SBJsonWriter.m */,
 			);
 			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		F1924C741509581600D5365E /* Indicadores Iniciales */ = {
+			isa = PBXGroup;
+			children = (
+				F1924C631509562A00D5365E /* Configuracion.xml */,
+				F1924C641509562A00D5365E /* IndicadoresENOE - Tabla 2010.xml */,
+				F1924C651509562A00D5365E /* IndicadoresENOE - Tabla 2011.xml */,
+				F1924C661509562A00D5365E /* IndicadoresENOE-Bienestar 2010.xml */,
+				F1924C671509562A00D5365E /* IndicadoresENOE-Bienestar 2011.xml */,
+				F1924C681509562A00D5365E /* IndicadoresENOE-Desempeño 2010-2009.xml */,
+				F1924C691509562A00D5365E /* IndicadoresENOE-Desempeño 2011-2010.xml */,
+				F1924C6A1509562A00D5365E /* info-imapa.xsd */,
+			);
+			name = "Indicadores Iniciales";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
