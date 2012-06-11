@@ -14,11 +14,13 @@
 @property(nonatomic, retain)id<iControladorVista> controladorMapa;
 @property(nonatomic, retain) id<iControladorVista> controladorGraficaArea;
 @property(nonatomic, retain) id<iControladorVista> controladorLeyanda;
+@property(nonatomic, retain) id<iControladorVista> controladorLineaTiempo;
 
 
 @property(nonatomic, assign) IBOutlet UIView * representacionMapa;
 @property(nonatomic, assign) IBOutlet UIView * representacionGraficaArea;
 @property(nonatomic, assign) IBOutlet UIView * representacionLeyenda;
+@property(nonatomic, assign) IBOutlet UIView * representacionLineaTiempo;
 
 
 

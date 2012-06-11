@@ -18,6 +18,9 @@
 @synthesize representacionLeyenda;
 @synthesize controladorLeyanda;
 
+@synthesize representacionLineaTiempo;
+@synthesize controladorLineaTiempo;
+
 -(void)dealloc
 {
     self.representacionMapa = nil;
@@ -26,6 +29,9 @@
     self.controladorGraficaArea = nil;
     self.representacionLeyenda = nil;
     self.controladorLeyanda = nil;
+    
+    self.representacionLineaTiempo = nil;
+    self.controladorLineaTiempo=nil;
     
     [super dealloc];
 }
@@ -62,6 +68,9 @@
     
     if([self controladorLeyanda])
         [[self representacionLeyenda] insertSubview:[[self controladorLeyanda] obtenerRepresentacion] atIndex:0];
+    
+    //if([self controladorLineaTiempo])
+       // [[self representacionLineaTiempo] insertSubview:[[self controladorLineaTiempo] obtenerRepresentacion] atIndex:0];
 }
 
 - (void)viewDidUnload
@@ -73,7 +82,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-	return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;;
+	return interfaceOrientation == UIInterfaceOrientationLandscapeLeft || interfaceOrientation == UIInterfaceOrientationLandscapeRight;
 }
 
 @end

@@ -15,6 +15,19 @@
 		830083EC14FB0D0B00DF5341 /* drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083E914FB0D0B00DF5341 /* drawing.m */; };
 		830083ED14FB0D0B00DF5341 /* PDColoredProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083EB14FB0D0B00DF5341 /* PDColoredProgressView.m */; };
 		830083F114FB187F00DF5341 /* Entidad.m in Sources */ = {isa = PBXBuildFile; fileRef = 830083F014FB187F00DF5341 /* Entidad.m */; };
+		D70DE2B514FD6AC300E2DC4A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2A014FD6AC300E2DC4A /* UIColor+Hex.m */; };
+		D70DE2B614FD6AC300E2DC4A /* UIView+InnerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2A214FD6AC300E2DC4A /* UIView+InnerShadow.m */; };
+		D70DE2B714FD6AC300E2DC4A /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2A414FD6AC300E2DC4A /* UIView+Positioning.m */; };
+		D70DE2B814FD6AC300E2DC4A /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2A614FD6AC300E2DC4A /* UIView+Size.m */; };
+		D70DE2B914FD6AC300E2DC4A /* JMSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2A914FD6AC300E2DC4A /* JMSelectionView.m */; };
+		D70DE2BA14FD6AC300E2DC4A /* JMTabContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2AC14FD6AC300E2DC4A /* JMTabContainer.m */; };
+		D70DE2BB14FD6AC300E2DC4A /* JMTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2AE14FD6AC300E2DC4A /* JMTabItem.m */; };
+		D70DE2BC14FD6AC300E2DC4A /* JMTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2B014FD6AC300E2DC4A /* JMTabView.m */; };
+		D70DE2BD14FD6AC300E2DC4A /* BarBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2B314FD6AC300E2DC4A /* BarBackgroundLayer.m */; };
+		D70DE2C214FD72A800E2DC4A /* ControladorLineaTiempo.m in Sources */ = {isa = PBXBuildFile; fileRef = D70DE2C014FD72A800E2DC4A /* ControladorLineaTiempo.m */; };
+		D70DE2C314FD72A800E2DC4A /* ControladorLineaTiempo.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70DE2C114FD72A800E2DC4A /* ControladorLineaTiempo.xib */; };
+		D74C2D0F14FED2E000D17AFC /* HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D74C2D0E14FED2E000D17AFC /* HUDLayer.m */; };
+		D7C3CB851534C5DD001B2495 /* mexicodefinitivo.pod in Resources */ = {isa = PBXBuildFile; fileRef = D7C3CB841534C5DD001B2495 /* mexicodefinitivo.pod */; };
 		D7D65A7A14F5676000B3BEC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */; };
 		D7D65A7C14F5676000B3BEC6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */; };
 		D7D65A7E14F5676000B3BEC6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D65A7D14F5676000B3BEC6 /* OpenAL.framework */; };
@@ -208,6 +221,9 @@
 		D7D65CEF14F5839F00B3BEC6 /* ControladorMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */; };
 		D7D65CF014F5839F00B3BEC6 /* ControladorMapa.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */; };
 		D7D65CF614F6DE2800B3BEC6 /* mapmexico37.pod in Resources */ = {isa = PBXBuildFile; fileRef = D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */; };
+		D7E27236156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E27235156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.m */; };
+		D7E2723A156BF62E00FDF1B7 /* CeldaLeyendaMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E27239156BF62E00FDF1B7 /* CeldaLeyendaMapa.m */; };
+		D7E2723D156D60F100FDF1B7 /* ColorLeyenda.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E2723C156D60F100FDF1B7 /* ColorLeyenda.m */; };
 		F14D0EAF14F6B5ED006C7FC2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6314F6B5ED006C7FC2 /* .gitignore */; };
 		F14D0EB014F6B5ED006C7FC2 /* iconv.dll in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6C14F6B5ED006C7FC2 /* iconv.dll */; };
 		F14D0EB114F6B5ED006C7FC2 /* iconv.exe in Resources */ = {isa = PBXBuildFile; fileRef = F14D0E6D14F6B5ED006C7FC2 /* iconv.exe */; };
@@ -282,6 +298,31 @@
 		830083EB14FB0D0B00DF5341 /* PDColoredProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDColoredProgressView.m; path = Classes/PDColoredProgressView.m; sourceTree = "<group>"; };
 		830083EF14FB187F00DF5341 /* Entidad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entidad.h; path = Classes/Entidad.h; sourceTree = "<group>"; };
 		830083F014FB187F00DF5341 /* Entidad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entidad.m; path = Classes/Entidad.m; sourceTree = "<group>"; };
+		D70DE29F14FD6AC300E2DC4A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D70DE2A014FD6AC300E2DC4A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D70DE2A114FD6AC300E2DC4A /* UIView+InnerShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+InnerShadow.h"; sourceTree = "<group>"; };
+		D70DE2A214FD6AC300E2DC4A /* UIView+InnerShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+InnerShadow.m"; sourceTree = "<group>"; };
+		D70DE2A314FD6AC300E2DC4A /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		D70DE2A414FD6AC300E2DC4A /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		D70DE2A514FD6AC300E2DC4A /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		D70DE2A614FD6AC300E2DC4A /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		D70DE2A814FD6AC300E2DC4A /* JMSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSelectionView.h; sourceTree = "<group>"; };
+		D70DE2A914FD6AC300E2DC4A /* JMSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSelectionView.m; sourceTree = "<group>"; };
+		D70DE2AA14FD6AC300E2DC4A /* JMTabConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabConstants.h; sourceTree = "<group>"; };
+		D70DE2AB14FD6AC300E2DC4A /* JMTabContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabContainer.h; sourceTree = "<group>"; };
+		D70DE2AC14FD6AC300E2DC4A /* JMTabContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabContainer.m; sourceTree = "<group>"; };
+		D70DE2AD14FD6AC300E2DC4A /* JMTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabItem.h; sourceTree = "<group>"; };
+		D70DE2AE14FD6AC300E2DC4A /* JMTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabItem.m; sourceTree = "<group>"; };
+		D70DE2AF14FD6AC300E2DC4A /* JMTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMTabView.h; sourceTree = "<group>"; };
+		D70DE2B014FD6AC300E2DC4A /* JMTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMTabView.m; sourceTree = "<group>"; };
+		D70DE2B214FD6AC300E2DC4A /* BarBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarBackgroundLayer.h; sourceTree = "<group>"; };
+		D70DE2B314FD6AC300E2DC4A /* BarBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarBackgroundLayer.m; sourceTree = "<group>"; };
+		D70DE2BF14FD72A800E2DC4A /* ControladorLineaTiempo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControladorLineaTiempo.h; path = Classes/ControladorLineaTiempo.h; sourceTree = "<group>"; };
+		D70DE2C014FD72A800E2DC4A /* ControladorLineaTiempo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorLineaTiempo.m; path = Classes/ControladorLineaTiempo.m; sourceTree = "<group>"; };
+		D70DE2C114FD72A800E2DC4A /* ControladorLineaTiempo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorLineaTiempo.xib; path = Classes/ControladorLineaTiempo.xib; sourceTree = "<group>"; };
+		D74C2D0D14FED2E000D17AFC /* HUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUDLayer.h; path = Classes/HUDLayer.h; sourceTree = "<group>"; };
+		D74C2D0E14FED2E000D17AFC /* HUDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HUDLayer.m; path = Classes/HUDLayer.m; sourceTree = "<group>"; };
+		D7C3CB841534C5DD001B2495 /* mexicodefinitivo.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = mexicodefinitivo.pod; path = Resources/mexicodefinitivo.pod; sourceTree = "<group>"; };
 		D7D65A7514F5676000B3BEC6 /* iEnoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iEnoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D65A7914F5676000B3BEC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D7D65A7B14F5676000B3BEC6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -682,6 +723,14 @@
 		D7D65CED14F5839F00B3BEC6 /* ControladorMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControladorMapa.m; path = Classes/ControladorMapa.m; sourceTree = "<group>"; };
 		D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ControladorMapa.xib; path = Classes/ControladorMapa.xib; sourceTree = "<group>"; };
 		D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */ = {isa = PBXFileReference; lastKnownFileType = file; name = mapmexico37.pod; path = Resources/mapmexico37.pod; sourceTree = "<group>"; };
+		D7E27234156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepresentacionCeldaLeyendaMapa.h; path = Classes/RepresentacionCeldaLeyendaMapa.h; sourceTree = "<group>"; };
+		D7E27235156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepresentacionCeldaLeyendaMapa.m; path = Classes/RepresentacionCeldaLeyendaMapa.m; sourceTree = "<group>"; };
+		D7E27238156BF62E00FDF1B7 /* CeldaLeyendaMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CeldaLeyendaMapa.h; path = Classes/CeldaLeyendaMapa.h; sourceTree = "<group>"; };
+		D7E27239156BF62E00FDF1B7 /* CeldaLeyendaMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CeldaLeyendaMapa.m; path = Classes/CeldaLeyendaMapa.m; sourceTree = "<group>"; };
+		D7E2723B156D60F100FDF1B7 /* ColorLeyenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorLeyenda.h; path = Classes/ColorLeyenda.h; sourceTree = "<group>"; };
+		D7E2723C156D60F100FDF1B7 /* ColorLeyenda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorLeyenda.m; path = Classes/ColorLeyenda.m; sourceTree = "<group>"; };
+		D7E2723E156D7B2100FDF1B7 /* DelegadoRepresentacionMapa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DelegadoRepresentacionMapa.h; path = Classes/DelegadoRepresentacionMapa.h; sourceTree = "<group>"; };
+		D7E2723F156D80CB00FDF1B7 /* DelegadoControladorMapa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DelegadoControladorMapa.h; path = Classes/DelegadoControladorMapa.h; sourceTree = "<group>"; };
 		F14D0E6314F6B5ED006C7FC2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F14D0E6514F6B5ED006C7FC2 /* Concepto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concepto.h; sourceTree = "<group>"; };
 		F14D0E6614F6B5ED006C7FC2 /* IGestorSecciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGestorSecciones.h; sourceTree = "<group>"; };
@@ -819,6 +868,10 @@
 				830083E314FB0BFE00DF5341 /* CeldaLeyendaEntidad.h */,
 				830083E414FB0BFE00DF5341 /* CeldaLeyendaEntidad.m */,
 				830083E614FB0C4C00DF5341 /* CeldaLeyenda.xib */,
+				D7E27234156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.h */,
+				D7E27235156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.m */,
+				D7E27238156BF62E00FDF1B7 /* CeldaLeyendaMapa.h */,
+				D7E27239156BF62E00FDF1B7 /* CeldaLeyendaMapa.m */,
 			);
 			name = Componentes;
 			sourceTree = "<group>";
@@ -826,6 +879,7 @@
 		830083E814FB0CE300DF5341 /* Utilidades */ = {
 			isa = PBXGroup;
 			children = (
+				D70DE29C14FD6AC300E2DC4A /* JMTabView */,
 				830083E914FB0D0B00DF5341 /* drawing.m */,
 				830083EA14FB0D0B00DF5341 /* PDColoredProgressView.h */,
 				830083EB14FB0D0B00DF5341 /* PDColoredProgressView.m */,
@@ -838,8 +892,69 @@
 			children = (
 				830083EF14FB187F00DF5341 /* Entidad.h */,
 				830083F014FB187F00DF5341 /* Entidad.m */,
+				D7E2723B156D60F100FDF1B7 /* ColorLeyenda.h */,
+				D7E2723C156D60F100FDF1B7 /* ColorLeyenda.m */,
 			);
 			name = "modelo-vista";
+			sourceTree = "<group>";
+		};
+		D70DE29C14FD6AC300E2DC4A /* JMTabView */ = {
+			isa = PBXGroup;
+			children = (
+				D70DE29D14FD6AC300E2DC4A /* Classes */,
+			);
+			name = JMTabView;
+			path = Classes/JMTabView;
+			sourceTree = "<group>";
+		};
+		D70DE29D14FD6AC300E2DC4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D70DE29E14FD6AC300E2DC4A /* Categories */,
+				D70DE2A714FD6AC300E2DC4A /* Subviews */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D70DE29E14FD6AC300E2DC4A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D70DE29F14FD6AC300E2DC4A /* UIColor+Hex.h */,
+				D70DE2A014FD6AC300E2DC4A /* UIColor+Hex.m */,
+				D70DE2A114FD6AC300E2DC4A /* UIView+InnerShadow.h */,
+				D70DE2A214FD6AC300E2DC4A /* UIView+InnerShadow.m */,
+				D70DE2A314FD6AC300E2DC4A /* UIView+Positioning.h */,
+				D70DE2A414FD6AC300E2DC4A /* UIView+Positioning.m */,
+				D70DE2A514FD6AC300E2DC4A /* UIView+Size.h */,
+				D70DE2A614FD6AC300E2DC4A /* UIView+Size.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D70DE2A714FD6AC300E2DC4A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				D70DE2A814FD6AC300E2DC4A /* JMSelectionView.h */,
+				D70DE2A914FD6AC300E2DC4A /* JMSelectionView.m */,
+				D70DE2AA14FD6AC300E2DC4A /* JMTabConstants.h */,
+				D70DE2AB14FD6AC300E2DC4A /* JMTabContainer.h */,
+				D70DE2AC14FD6AC300E2DC4A /* JMTabContainer.m */,
+				D70DE2AD14FD6AC300E2DC4A /* JMTabItem.h */,
+				D70DE2AE14FD6AC300E2DC4A /* JMTabItem.m */,
+				D70DE2AF14FD6AC300E2DC4A /* JMTabView.h */,
+				D70DE2B014FD6AC300E2DC4A /* JMTabView.m */,
+				D70DE2B114FD6AC300E2DC4A /* Layers */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		D70DE2B114FD6AC300E2DC4A /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				D70DE2B214FD6AC300E2DC4A /* BarBackgroundLayer.h */,
+				D70DE2B314FD6AC300E2DC4A /* BarBackgroundLayer.m */,
+			);
+			path = Layers;
 			sourceTree = "<group>";
 		};
 		D7D65A6A14F5675F00B3BEC6 = {
@@ -1125,6 +1240,7 @@
 		D7D65B7B14F5676700B3BEC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D7C3CB841534C5DD001B2495 /* mexicodefinitivo.pod */,
 				D7D65CF514F6DE2800B3BEC6 /* mapmexico37.pod */,
 				D7D65B7C14F5676700B3BEC6 /* Default.png */,
 				D7D65B7E14F5676700B3BEC6 /* fps_images.png */,
@@ -1473,6 +1589,7 @@
 		D7D65CDE14F5695D00B3BEC6 /* Vista */ = {
 			isa = PBXGroup;
 			children = (
+				D70DE2C114FD72A800E2DC4A /* ControladorLineaTiempo.xib */,
 				830083E014FB0B8400DF5341 /* ControladorLeyenda.xib */,
 				830083B714FAE21100DF5341 /* VentanaPrincipal.xib */,
 				D7D65CEE14F5839F00B3BEC6 /* ControladorMapa.xib */,
@@ -1490,6 +1607,8 @@
 				D7D65CEA14F56F3200B3BEC6 /* Protocolos */,
 				D7D65CE014F56AAF00B3BEC6 /* VentanaPrincipal.h */,
 				D7D65CE114F56AAF00B3BEC6 /* VentanaPrincipal.m */,
+				D70DE2C014FD72A800E2DC4A /* ControladorLineaTiempo.m */,
+				D70DE2BF14FD72A800E2DC4A /* ControladorLineaTiempo.h */,
 				D7D65CD114F5676D00B3BEC6 /* iEnoeLayer.h */,
 				D7D65CD214F5676D00B3BEC6 /* iEnoeLayer.m */,
 				D7D65CD414F5676D00B3BEC6 /* iEnoeWorld.h */,
@@ -1500,6 +1619,8 @@
 				F1A1621F14F82F8400BB3544 /* ControladorGraficaSencha.m */,
 				830083DE14FB0B8400DF5341 /* ControladorLeyenda.h */,
 				830083DF14FB0B8400DF5341 /* ControladorLeyenda.m */,
+				D74C2D0D14FED2E000D17AFC /* HUDLayer.h */,
+				D74C2D0E14FED2E000D17AFC /* HUDLayer.m */,
 			);
 			name = ControladorVista;
 			sourceTree = "<group>";
@@ -1508,6 +1629,8 @@
 			isa = PBXGroup;
 			children = (
 				D7D65CEB14F57F7100B3BEC6 /* iControladorVista.h */,
+				D7E2723E156D7B2100FDF1B7 /* DelegadoRepresentacionMapa.h */,
+				D7E2723F156D80CB00FDF1B7 /* DelegadoControladorMapa.h */,
 			);
 			name = Protocolos;
 			sourceTree = "<group>";
@@ -1921,6 +2044,8 @@
 				830083B814FAE21100DF5341 /* VentanaPrincipal.xib in Resources */,
 				830083E214FB0B8400DF5341 /* ControladorLeyenda.xib in Resources */,
 				830083E714FB0C4C00DF5341 /* CeldaLeyenda.xib in Resources */,
+				D70DE2C314FD72A800E2DC4A /* ControladorLineaTiempo.xib in Resources */,
+				D7C3CB851534C5DD001B2495 /* mexicodefinitivo.pod in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2143,6 +2268,20 @@
 				830083EC14FB0D0B00DF5341 /* drawing.m in Sources */,
 				830083ED14FB0D0B00DF5341 /* PDColoredProgressView.m in Sources */,
 				830083F114FB187F00DF5341 /* Entidad.m in Sources */,
+				D70DE2B514FD6AC300E2DC4A /* UIColor+Hex.m in Sources */,
+				D70DE2B614FD6AC300E2DC4A /* UIView+InnerShadow.m in Sources */,
+				D70DE2B714FD6AC300E2DC4A /* UIView+Positioning.m in Sources */,
+				D70DE2B814FD6AC300E2DC4A /* UIView+Size.m in Sources */,
+				D70DE2B914FD6AC300E2DC4A /* JMSelectionView.m in Sources */,
+				D70DE2BA14FD6AC300E2DC4A /* JMTabContainer.m in Sources */,
+				D70DE2BB14FD6AC300E2DC4A /* JMTabItem.m in Sources */,
+				D70DE2BC14FD6AC300E2DC4A /* JMTabView.m in Sources */,
+				D70DE2BD14FD6AC300E2DC4A /* BarBackgroundLayer.m in Sources */,
+				D70DE2C214FD72A800E2DC4A /* ControladorLineaTiempo.m in Sources */,
+				D74C2D0F14FED2E000D17AFC /* HUDLayer.m in Sources */,
+				D7E27236156BF5B500FDF1B7 /* RepresentacionCeldaLeyendaMapa.m in Sources */,
+				D7E2723A156BF62E00FDF1B7 /* CeldaLeyendaMapa.m in Sources */,
+				D7E2723D156D60F100FDF1B7 /* ColorLeyenda.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,13 +14,17 @@
 
 #import "iControladorVista.h"
 
-@interface ControladorMapa : UIViewController<iControladorVista>
+
+@interface ControladorMapa : UIViewController<iControladorVista,UITableViewDelegate, UITableViewDataSource>
 {
     EAGLView *_glView;
 }
 
-@property(nonatomic, assign) CCDirector* director;
 
+
+
+@property(nonatomic, assign) CCDirector* director;
+@property(nonatomic, assign) IBOutlet UITableView* tablaLeyenda;
 
 #pragma mark iControladorVista
 -(UIView *) obtenerRepresentacionBajoMarco:(CGRect) tamanioVentana;

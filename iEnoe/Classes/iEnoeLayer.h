@@ -14,6 +14,7 @@
 @interface iEnoeLayer : CC3Layer 
 {
      CGFloat startX, endX, startY, endY;
+    CC3Layer * hudLayer;
 }
 
 #pragma mark Gestures
@@ -24,5 +25,18 @@
 -(IBAction)handlePinchGesture:(UIPinchGestureRecognizer*)sender;
 
 @property(nonatomic, readonly) iEnoeWorld* world3D;
+
+#pragma mark HUDLayer
+
+-(CC3World*) makeHUDWorld;
+
+-(void) openHUDFromTouchAt: (CGPoint) touchPoint;
+
+-(void) closeHUDFromTouchAt: (CGPoint) touchPoint;
+
+-(void) toggleHUDFromTouchAt: (CGPoint) touchPoint;
+
+-(void) removeHUD;
+
 
 @end

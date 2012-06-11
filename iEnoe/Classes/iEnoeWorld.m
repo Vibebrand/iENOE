@@ -7,6 +7,7 @@
 //
 
 #import "iEnoeWorld.h"
+#import "iEnoeLayer.h"
 #import "CC3PODResourceNode.h"
 #import "CC3ActionInterval.h"
 #import "CC3MeshNode.h"
@@ -87,10 +88,9 @@
 -(void)addPOD
 {    
     _modelo3D = [CC3PODResourceNode nodeWithName: @"MAPA"];
-	_modelo3D.resource = [CC3PODResource resourceFromResourceFile: @"mapmexico37.pod"];
+	_modelo3D.resource = [CC3PODResource resourceFromResourceFile: @"mexicodefinitivo.pod"];
     _modelo3D.location = cc3v(0.0, 0.0, 0.0);
-    //[_modelo3D addAxesDirectionMarkers];
-    [_modelo3D touchEnableAll];
+   [_modelo3D touchEnableAll];
     
     self.ambientLight = kCC3DefaultLightColorAmbientWorld;
     [self addChild: _modelo3D];
@@ -102,7 +102,7 @@
     
 	switch (touchType) {
 		case kCCTouchBegan:
-			[touchedNodePicker pickNodeFromTouchEvent: touchType at: touchPoint];
+            [touchedNodePicker pickNodeFromTouchEvent: touchType at: touchPoint];
 			break;
 		case kCCTouchMoved:
             
@@ -152,6 +152,7 @@
     [self setNodoSeleccionado:[aNode name]];
     // NSLog(@"%@", aNode.opacity);
     NSLog(@"%@", self.nodoSeleccionado);
+     [((iEnoeLayer*)self.cc3Layer) toggleHUDFromTouchAt: touchPoint];
 }
 
 -(void)zoomThatThing:(CGFloat)theZoom
@@ -173,7 +174,7 @@
 
 -(void)spinThatThing:(CGFloat)x :(CGFloat)y
 {
-     CC3Camera *theCamera = (CC3Camera *)[self activeCamera];
+    CC3Camera *theCamera = (CC3Camera *)[self activeCamera];
     CC3Vector current = theCamera.location;
     CC3Vector increment = CC3VectorAdd(current, cc3v(x, y, 0.0));
     

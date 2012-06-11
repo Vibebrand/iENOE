@@ -20,6 +20,7 @@
 #import "RepresentableSencha.h"
 #import "ControlMaestro.h"
 #import "ControladorLeyenda.h"
+#import "ControladorLineaTiempo.h"
 @implementation iEnoeAppDelegate
 
 @synthesize window;
@@ -45,7 +46,7 @@
 	//[director setDeviceOrientation:kCCDeviceOrientationLandscapeRight];
 
 	[director setAnimationInterval:1.0/60];
-	[director setDisplayFPS:YES];
+	[director setDisplayFPS:NO];
     
     controladorVistaPrincipal = [[VentanaPrincipal alloc] initWithNibName:@"VentanaPrincipal" bundle:[NSBundle mainBundle]];
     
@@ -53,6 +54,8 @@
     
     [ controladorVistaPrincipal setControladorLeyanda:[[[ControladorLeyenda alloc] initWithNibName:@"ControladorLeyenda" bundle:[NSBundle mainBundle]] autorelease] ];
     
+    [ controladorVistaPrincipal setControladorLineaTiempo:[[[ControladorLineaTiempo alloc] initWithNibName:@"ControladorLineaTiempo" bundle:[NSBundle mainBundle]] autorelease] ];
+
     
     // REVISAR
     _controlMaestro = [ControlMaestro new];
